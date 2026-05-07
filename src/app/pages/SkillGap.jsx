@@ -1,13 +1,22 @@
 import { useState, useEffect } from 'react';
-import { ArrowLeft, MoreHorizontal, CheckCircle, AlertTriangle, FileText, Download } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
+import { CheckCircle, AlertTriangle, FileText, Download, Upload } from 'lucide-react';
 import SkillChip from '../../ui/components/SkillChip';
 import RoadmapCard from '../../ui/components/RoadmapCard';
 
 import { getAllRoles, findRoles } from '../../core/logic/dataStore';
 import { getResume, getProfile, saveSkillGapResults, getSkillGapResults } from '../../core/db/repo';
 import { analyzeSkillGap } from '../../core/logic/skillEngine';
+import { calculateReadiness } from '../../core/logic/readiness';
+import { generateRecommendations } from '../../core/logic/recommendationEngine';
+import { detectResumeSections } from '../../core/parsing/resumeParser';
+import ReadinessMeter from '../../ui/components/ReadinessMeter';
+import RoadmapPlanner from '../../ui/components/RoadmapPlanner';
+import ExportPdfButton from '../../ui/components/ExportPdfButton';
+import RoleAutocomplete from '../../ui/components/RoleAutocomplete';
 
 export default function SkillGap() {
+    const navigate = useNavigate();
     const rolesDataset = getAllRoles();
     const [resumeText, setResumeText] = useState('');
     const [targetRole, setTargetRole] = useState(rolesDataset[0]?.roleId || '');
@@ -16,6 +25,7 @@ export default function SkillGap() {
     const [errorStatus, setErrorStatus] = useState('');
     const [searchQuery, setSearchQuery] = useState('');
     const [filteredRoles, setFilteredRoles] = useState(rolesDataset);
+    const [profileData, setProfileData] = useState({ skills: [], interests: [] });
 
     useEffect(() => {
         setFilteredRoles(findRoles(searchQuery));
@@ -29,8 +39,11 @@ export default function SkillGap() {
             }
 
             const p = await getProfile();
-            if (p && p.targetRole) {
-                setTargetRole(p.targetRole);
+            if (p) {
+                setProfileData(p);
+                if (p.targetRole) {
+                    setTargetRole(p.targetRole);
+                }
             }
 
             const savedGap = await getSkillGapResults();
@@ -84,19 +97,24 @@ export default function SkillGap() {
         }
     };
 
+    const readiness = calculateReadiness({
+        targetRole,
+        rolesDataset,
+        profileSkills: profileData?.skills || (analysis?.extractedSkills || []),
+        profileInterests: profileData?.interests || [],
+        resumeRawText: resumeText
+    });
+
     return (
         <div className="max-w-4xl mx-auto space-y-6">
             {/* Header */}
             <div className="flex items-center justify-between">
                 <div className="flex items-center gap-3">
-                    <button className="p-2 rounded-full hover:bg-slate-200 dark:hover:bg-white/10 transition-colors">
-                        <ArrowLeft size={20} />
-                    </button>
                     <h1 className="text-xl font-bold text-slate-900 dark:text-white">Skill Gap Analyzer</h1>
                 </div>
-                <button className="p-2 rounded-full hover:bg-slate-200 dark:hover:bg-white/10 transition-colors">
-                    <MoreHorizontal size={20} />
-                </button>
+                <div className="flex items-center gap-2">
+                    <ExportPdfButton elementId="skill-gap-report" filename="lakshyaved-skill-gap.pdf" label="Export Skill Gap Report" />
+                </div>
             </div>
 
             {/* Resume Status */}
@@ -108,11 +126,20 @@ export default function SkillGap() {
                             {resumeText ? <CheckCircle size={20} /> : <FileText size={20} />}
                         </div>
                         <div>
-                            <p className="text-sm font-bold text-white">{resumeText ? 'Resume: Saved in DB' : 'Resume: Missing'}</p>
+                            <p className="text-sm font-bold text-white">Upload Resume</p>
                             <p className="text-xs text-gray-400">Word count: {resumeText ? resumeText.split(/\s+/).length : 0}</p>
                         </div>
                     </div>
-                    {resumeText && <CheckCircle size={24} className="text-[#13ec6d]" />}
+                    <div className="flex items-center gap-3">
+                        {resumeText && <CheckCircle size={24} className="text-[#13ec6d] hidden sm:block" />}
+                        <button 
+                            onClick={() => navigate('/upload')}
+                            className="flex items-center gap-2 px-3 py-1.5 text-xs font-bold text-white bg-slate-800 hover:bg-slate-700 rounded border border-slate-700 transition-colors"
+                        >
+                            <Upload size={14} />
+                            {resumeText ? 'Replace' : 'Upload'}
+                        </button>
+                    </div>
                 </div>
             </div>
 
@@ -126,23 +153,14 @@ export default function SkillGap() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="flex flex-col gap-3">
                     <div className="space-y-1.5">
-                        <label className="text-xs font-semibold uppercase tracking-wider text-gray-400">Role Search</label>
-                        <input
-                            type="text"
-                            placeholder="Search roles..."
-                            value={searchQuery}
-                            onChange={(e) => setSearchQuery(e.target.value)}
-                            className="w-full rounded-lg bg-[#121a2a] border border-[#3b5445] py-2 px-4 mb-2 text-sm text-white focus:border-[#13ec6d] focus:outline-none focus:ring-1 focus:ring-[#13ec6d]"
+                        <RoleAutocomplete
+                            label="Target Role"
+                            roles={rolesDataset}
+                            selectedRoleId={targetRole}
+                            onSelectRole={(role) => setTargetRole(role ? role.roleId : '')}
+                            placeholder="Search for your target role..."
+                            searchFn={(query) => findRoles(query)}
                         />
-                        <label className="text-xs font-semibold uppercase tracking-wider text-gray-400">Target Role</label>
-                        <select
-                            value={targetRole}
-                            onChange={(e) => setTargetRole(e.target.value)}
-                            className="w-full rounded-lg bg-[#121a2a] border border-[#3b5445] py-3 px-4 text-sm text-white focus:border-[#13ec6d] focus:outline-none focus:ring-1 focus:ring-[#13ec6d]">
-                            {filteredRoles.map(r => (
-                                <option key={r.roleId} value={r.roleId}>{r.roleName}</option>
-                            ))}
-                        </select>
                     </div>
                     <div className="flex gap-2">
                         <button onClick={handleAnalyze} disabled={loading} className="flex-1 bg-[#13ec6d] text-[#0b0f19] font-bold py-3 rounded-lg shadow-lg shadow-[#13ec6d]/20 hover:bg-[#13ec6d]/90 transition-all disabled:opacity-50 cursor-pointer">
@@ -154,79 +172,142 @@ export default function SkillGap() {
                     </div>
                 </div>
 
-                <div className="flex flex-col rounded-xl bg-[#121a2a] p-4 border border-[#1e293b] shadow-lg">
-                    <div className="flex items-start justify-between mb-2">
-                        <p className="text-xs font-semibold uppercase tracking-wider text-gray-400">Match Rate</p>
-                        <div className="h-8 w-8 rounded-full border-2 border-[#13ec6d]/30 border-t-[#13ec6d] flex items-center justify-center">
-                            <span className="text-[10px] font-bold text-[#13ec6d]">{analysis ? analysis.matchRate : 0}%</span>
-                        </div>
-                    </div>
-                    <div className="mt-auto flex gap-8">
-                        <div>
-                            <p className="text-2xl font-bold text-white">{analysis ? analysis.matchedCount : 0}</p>
-                            <p className="text-[10px] font-medium text-gray-400">Matched</p>
-                        </div>
-                        <div className="h-full w-px bg-white/10" />
-                        <div>
-                            <p className="text-2xl font-bold text-[#ef4444]">{analysis ? analysis.missingCount : 0}</p>
-                            <p className="text-[10px] font-medium text-gray-400">Missing</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            {/* Skills Breakdown */}
-            <div className={`space-y-4 ${!analysis ? 'opacity-50 pointer-events-none' : ''}`}>
-
-                <div className="rounded-xl bg-[#121a2a] p-5 border border-[#1e293b]">
-                    <div className="flex items-center gap-2 mb-4">
-                        <CheckCircle size={18} className="text-[#13ec6d]" />
-                        <h3 className="text-sm font-bold text-white">Matched Skills</h3>
-                    </div>
-                    <div className="flex flex-wrap gap-2">
-                        {analysis?.matchedSkills?.length ? (
-                            analysis.matchedSkills.map(skill => <SkillChip key={skill} label={skill} type="matched" />)
-                        ) : (
-                            <p className="text-xs text-slate-500">Run analysis to see matched skills...</p>
+                <div id="skill-gap-report" className="space-y-6 pb-2">
+                    <div className="flex flex-col gap-4">
+                        {readiness && (
+                            <div className="col-span-1">
+                                <ReadinessMeter score={readiness.total} breakdown={readiness.breakdown} />
+                            </div>
                         )}
+
+                        <div className="flex flex-col rounded-xl bg-[#121a2a] p-4 border border-[#1e293b] shadow-lg">
+                            <div className="flex items-start justify-between mb-2">
+                                <p className="text-xs font-semibold uppercase tracking-wider text-gray-400">Match Rate</p>
+                                <div className="h-8 w-8 rounded-full border-2 border-[#13ec6d]/30 border-t-[#13ec6d] flex items-center justify-center">
+                                    <span className="text-[10px] font-bold text-[#13ec6d]">{analysis ? analysis.matchRate : 0}%</span>
+                                </div>
+                            </div>
+                            <div className="mt-auto flex gap-8">
+                                <div>
+                                    <p className="text-2xl font-bold text-white">{analysis ? analysis.matchedCount : 0}</p>
+                                    <p className="text-[10px] font-medium text-gray-400">Matched</p>
+                                </div>
+                                <div className="h-full w-px bg-white/10" />
+                                <div>
+                                    <p className="text-2xl font-bold text-[#ef4444]">{analysis ? analysis.missingCount : 0}</p>
+                                    <p className="text-[10px] font-medium text-gray-400">Missing</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <div className="rounded-xl bg-[#121a2a] p-5 border border-[#ef4444]/20 relative overflow-hidden">
-                    <div className="absolute -right-6 -top-6 h-24 w-24 rounded-full bg-[#ef4444]/5 blur-2xl pointer-events-none" />
-                    <div className="flex items-center gap-2 mb-4 relative z-10">
-                        <AlertTriangle size={18} className="text-[#ef4444]" />
-                        <h3 className="text-sm font-bold text-white">Missing Skills</h3>
+                {/* Skills Breakdown */}
+                <div className={`space-y-4 ${!analysis ? 'opacity-50 pointer-events-none' : ''}`}>
+
+                    <div className="rounded-xl bg-[#121a2a] p-5 border border-[#1e293b]">
+                        <div className="flex items-center gap-2 mb-4">
+                            <CheckCircle size={18} className="text-[#13ec6d]" />
+                            <h3 className="text-sm font-bold text-white">Matched Skills</h3>
+                        </div>
+                        <div className="flex flex-wrap gap-2">
+                            {analysis?.matchedSkills?.length ? (
+                                analysis.matchedSkills.map(skill => <SkillChip key={skill} label={skill} type="matched" />)
+                            ) : (
+                                <p className="text-xs text-slate-500">Run analysis to see matched skills...</p>
+                            )}
+                        </div>
                     </div>
-                    <div className="flex flex-wrap gap-2 relative z-10">
-                        {analysis?.missingSkills?.length ? (
-                            analysis.missingSkills.map(skill => <SkillChip key={skill} label={skill} type="missing" />)
-                        ) : (
-                            <p className="text-xs text-slate-500">Run analysis to see missing skills...</p>
-                        )}
+
+                    <div className="rounded-xl bg-[#121a2a] p-5 border border-[#ef4444]/20 relative overflow-hidden">
+                        <div className="absolute -right-6 -top-6 h-24 w-24 rounded-full bg-[#ef4444]/5 blur-2xl pointer-events-none" />
+                        <div className="flex items-center gap-2 mb-4 relative z-10">
+                            <AlertTriangle size={18} className="text-[#ef4444]" />
+                            <h3 className="text-sm font-bold text-white">Missing Skills</h3>
+                        </div>
+                        <div className="flex flex-wrap gap-2 relative z-10">
+                            {analysis?.missingSkills?.length ? (
+                                analysis.missingSkills.map(skill => <SkillChip key={skill} label={skill} type="missing" />)
+                            ) : (
+                                <p className="text-xs text-slate-500">Run analysis to see missing skills...</p>
+                            )}
+                        </div>
                     </div>
                 </div>
+
+                {/* AI Generated Offline Roadmap - NEW */}
+                {analysis && targetRole && (
+                    <div className="pt-4 border-t border-[#1e293b]">
+                        <RoadmapPlanner
+                            targetRole={targetRole}
+                            targetRoleName={rolesDataset.find(r => r.roleId === targetRole)?.roleName}
+                            missingSkills={analysis.missingSkills || []}
+                        />
+                    </div>
+                )}
+
+                {/* Roadmap */}
+                {analysis && analysis.roadmap && analysis.roadmap.length > 0 && (
+                    <div>
+                        <div className="flex items-center justify-between mb-4 px-1">
+                            <h2 className="text-lg font-bold text-white">Recommended Roadmap</h2>
+                        </div>
+                        <div className="space-y-4">
+                            {analysis.roadmap.map(rm => (
+                                <RoadmapCard
+                                    key={rm.title}
+                                    title={rm.title}
+                                    priority={rm.priority}
+                                    steps={rm.steps}
+                                />
+                            ))}
+                        </div>
+                    </div>
+                )}
+                {/* Recommendations */}
+                {analysis && targetRole && (() => {
+                    const resumeSections = resumeText ? detectResumeSections(resumeText) : null;
+                    const recs = generateRecommendations({
+                        targetRole,
+                        rolesDataset,
+                        profileSkills: profileData?.skills || [],
+                        profileInterests: profileData?.interests || [],
+                        resumeSections,
+                        matchRate: analysis.matchRate || 0,
+                        missingSkills: analysis.missingSkills || [],
+                        readinessScore: readiness?.total || 0
+                    });
+
+                    if (recs.length === 0) return null;
+
+                    const impactColors = { high: 'text-red-400 bg-red-900/20 border-red-900/30', medium: 'text-amber-400 bg-amber-900/20 border-amber-900/30', low: 'text-[#13ec6d] bg-emerald-900/20 border-emerald-900/30' };
+                    const categoryIcons = { skill: '🎯', resume: '📄', career: '🚀', experience: '💼' };
+
+                    return (
+                        <div className="bg-[#121a2a] rounded-2xl p-6 shadow-lg border border-[#1e293b]">
+                            <h3 className="text-lg font-bold text-white mb-2">Personalized Recommendations</h3>
+                            <p className="text-slate-400 text-xs mb-6">Actionable insights based on your analysis.</p>
+                            <div className="space-y-3">
+                                {recs.map(r => (
+                                    <div key={r.id} className="bg-slate-900/50 rounded-xl p-4 border border-slate-800">
+                                        <div className="flex items-start gap-3">
+                                            <span className="text-lg">{categoryIcons[r.category] || '💡'}</span>
+                                            <div className="flex-1">
+                                                <div className="flex items-center gap-2 mb-1">
+                                                    <h4 className="text-white font-bold text-sm">{r.title}</h4>
+                                                    <span className={`text-[9px] px-2 py-0.5 rounded-full font-bold uppercase border ${impactColors[r.impact]}`}>{r.impact}</span>
+                                                </div>
+                                                <p className="text-slate-400 text-xs leading-relaxed mb-1">{r.text}</p>
+                                                <p className="text-slate-300 text-xs font-medium italic">→ {r.actionable}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    );
+                })()}
             </div>
-
-            {/* Roadmap */}
-            {analysis && analysis.roadmap && analysis.roadmap.length > 0 && (
-                <div>
-                    <div className="flex items-center justify-between mb-4 px-1">
-                        <h2 className="text-lg font-bold text-white">Recommended Roadmap</h2>
-                        <button className="text-xs font-medium text-[#13ec6d] hover:underline">View All</button>
-                    </div>
-                    <div className="space-y-4">
-                        {analysis.roadmap.map(rm => (
-                            <RoadmapCard
-                                key={rm.title}
-                                title={rm.title}
-                                priority={rm.priority}
-                                steps={rm.steps}
-                            />
-                        ))}
-                    </div>
-                </div>
-            )}
         </div>
     );
 }

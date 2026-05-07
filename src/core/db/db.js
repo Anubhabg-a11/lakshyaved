@@ -9,4 +9,18 @@ db.version(1).stores({
     skillGapResults: 'id' // id (string), targetRole (string), matchedSkills (string[]), missingSkills (string[]), roadmap (array), updatedAt (number)
 });
 
+db.version(2).stores({
+    appState: 'id', // id (string), demoMode (boolean), updatedAt (number)
+});
+
+db.version(3).stores({
+    roadmapPlans: 'id, targetRole, durationWeeks, createdAt, updatedAt', // id (string: role-duration)
+    roadmapProgress: 'id, planId, updatedAt' // id (string: planId)
+});
+
+db.version(4).stores({
+    profile: 'id', // extended: name (string), currentRole (string), education (string), skillsWithLevels (array of {name, level})
+    appState: 'id' // extended: onboarded (boolean)
+});
+
 export default db;

@@ -1,174 +1,7096 @@
 [
-    {
-        "skillId": "python",
-        "skillName": "Python",
-        "type": "language",
-        "aliases": [
-            "python3",
-            "py"
-        ]
-    },
-    {
-        "skillId": "javascript",
-        "skillName": "JavaScript",
-        "type": "language",
-        "aliases": [
-            "js",
-            "ecmascript"
-        ]
-    },
-    {
-        "skillId": "react",
-        "skillName": "React",
-        "type": "framework",
-        "aliases": [
-            "reactjs",
-            "react.js"
-        ]
-    },
-    {
-        "skillId": "node-js",
-        "skillName": "Node.js",
-        "type": "framework",
-        "aliases": [
-            "nodejs",
-            "node"
-        ]
-    },
-    {
-        "skillId": "sql",
-        "skillName": "SQL",
-        "type": "database",
-        "aliases": [
-            "mysql",
-            "postgresql",
-            "rdbms"
-        ]
-    },
-    {
-        "skillId": "machine-learning",
-        "skillName": "Machine Learning",
-        "type": "concept",
-        "aliases": [
-            "ml"
-        ]
-    },
-    {
-        "skillId": "agile",
-        "skillName": "Agile",
-        "type": "methodology",
-        "aliases": [
-            "scrum"
-        ]
-    },
-    {
-        "skillId": "roadmapping",
-        "skillName": "Roadmapping",
-        "type": "skill",
-        "aliases": [
-            "product roadmapping"
-        ]
-    },
-    {
-        "skillId": "jira",
-        "skillName": "Jira",
-        "type": "tool",
-        "aliases": [
-            "atlassian jira"
-        ]
-    },
-    {
-        "skillId": "java",
-        "skillName": "Java",
-        "type": "language",
-        "aliases": [
-            "core java",
-            "j2ee"
-        ]
-    },
-    {
-        "skillId": "c++",
-        "skillName": "C++",
-        "type": "language",
-        "aliases": [
-            "cpp",
-            "c plus plus"
-        ]
-    },
-    {
-        "skillId": "c#",
-        "skillName": "C#",
-        "type": "language",
-        "aliases": [
-            "csharp",
-            "c sharp"
-        ]
-    },
-    {
-        "skillId": "aws",
-        "skillName": "AWS",
-        "type": "cloud",
-        "aliases": [
-            "amazon web services"
-        ]
-    },
-    {
-        "skillId": "docker",
-        "skillName": "Docker",
-        "type": "tool",
-        "aliases": [
-            "containerization"
-        ]
-    },
-    {
-        "skillId": "kubernetes",
-        "skillName": "Kubernetes",
-        "type": "tool",
-        "aliases": [
-            "k8s"
-        ]
-    },
-    {
-        "skillId": "git",
-        "skillName": "Git",
-        "type": "tool",
-        "aliases": [
-            "version control",
-            "github",
-            "gitlab"
-        ]
-    },
-    {
-        "skillId": "linux",
-        "skillName": "Linux",
-        "type": "os",
-        "aliases": [
-            "unix",
-            "ubuntu"
-        ]
-    },
-    {
-        "skillId": "html",
-        "skillName": "HTML",
-        "type": "language",
-        "aliases": [
-            "html5"
-        ]
-    },
-    {
-        "skillId": "css",
-        "skillName": "CSS",
-        "type": "language",
-        "aliases": [
-            "css3"
-        ]
-    },
-    {
-        "skillId": "typescript",
-        "skillName": "TypeScript",
-        "type": "language",
-        "aliases": [
-            "ts"
-        ]
-    }
+  {
+    "skillId": "python",
+    "skillName": "Python",
+    "type": "language",
+    "aliases": [
+      "py"
+    ]
+  },
+  {
+    "skillId": "java",
+    "skillName": "Java",
+    "type": "language",
+    "aliases": []
+  },
+  {
+    "skillId": "javascript",
+    "skillName": "JavaScript",
+    "type": "language",
+    "aliases": [
+      "js"
+    ]
+  },
+  {
+    "skillId": "c",
+    "skillName": "C",
+    "type": "language",
+    "aliases": []
+  },
+  {
+    "skillId": "cpp",
+    "skillName": "C Plus Plus",
+    "type": "language",
+    "aliases": [
+      "c++",
+      "cpp"
+    ]
+  },
+  {
+    "skillId": "sql",
+    "skillName": "SQL",
+    "type": "language",
+    "aliases": []
+  },
+  {
+    "skillId": "typescript",
+    "skillName": "TypeScript",
+    "type": "language",
+    "aliases": [
+      "ts"
+    ]
+  },
+  {
+    "skillId": "html",
+    "skillName": "HTML",
+    "type": "language",
+    "aliases": [
+      "html5"
+    ]
+  },
+  {
+    "skillId": "css",
+    "skillName": "CSS",
+    "type": "language",
+    "aliases": [
+      "css3"
+    ]
+  },
+  {
+    "skillId": "react",
+    "skillName": "React",
+    "type": "framework",
+    "aliases": [
+      "reactjs"
+    ]
+  },
+  {
+    "skillId": "node-js",
+    "skillName": "Node.js",
+    "type": "framework",
+    "aliases": [
+      "node",
+      "nodejs"
+    ]
+  },
+  {
+    "skillId": "express-js",
+    "skillName": "Express.js",
+    "type": "framework",
+    "aliases": [
+      "express"
+    ]
+  },
+  {
+    "skillId": "rest-apis",
+    "skillName": "REST APIs",
+    "type": "concept",
+    "aliases": [
+      "rest",
+      "rest api",
+      "api"
+    ]
+  },
+  {
+    "skillId": "git",
+    "skillName": "Git",
+    "type": "tool",
+    "aliases": []
+  },
+  {
+    "skillId": "github",
+    "skillName": "GitHub",
+    "type": "tool",
+    "aliases": []
+  },
+  {
+    "skillId": "linux",
+    "skillName": "Linux",
+    "type": "tool",
+    "aliases": []
+  },
+  {
+    "skillId": "vs-code",
+    "skillName": "VS Code",
+    "type": "tool",
+    "aliases": [
+      "vscode",
+      "visual studio code"
+    ]
+  },
+  {
+    "skillId": "data-structures-and-algorithms",
+    "skillName": "Data Structures And Algorithms",
+    "type": "concept",
+    "aliases": [
+      "dsa",
+      "data structures",
+      "algorithms"
+    ]
+  },
+  {
+    "skillId": "object-oriented-programming",
+    "skillName": "Object Oriented Programming",
+    "type": "concept",
+    "aliases": [
+      "oop"
+    ]
+  },
+  {
+    "skillId": "database-management-systems",
+    "skillName": "Database Management Systems",
+    "type": "concept",
+    "aliases": [
+      "dbms"
+    ]
+  },
+  {
+    "skillId": "operating-systems",
+    "skillName": "Operating Systems",
+    "type": "concept",
+    "aliases": [
+      "os"
+    ]
+  },
+  {
+    "skillId": "computer-networks",
+    "skillName": "Computer Networks",
+    "type": "concept",
+    "aliases": [
+      "cn",
+      "networking"
+    ]
+  },
+  {
+    "skillId": "microsoft-excel",
+    "skillName": "Microsoft Excel",
+    "type": "tool",
+    "aliases": [
+      "excel"
+    ]
+  },
+  {
+    "skillId": "statistics",
+    "skillName": "Statistics",
+    "type": "concept",
+    "aliases": [
+      "stats"
+    ]
+  },
+  {
+    "skillId": "data-analysis",
+    "skillName": "Data Analysis",
+    "type": "domain",
+    "aliases": [
+      "data analytics"
+    ]
+  },
+  {
+    "skillId": "pandas",
+    "skillName": "Pandas",
+    "type": "tool",
+    "aliases": []
+  },
+  {
+    "skillId": "numpy",
+    "skillName": "NumPy",
+    "type": "tool",
+    "aliases": [
+      "numpy"
+    ]
+  },
+  {
+    "skillId": "communication",
+    "skillName": "Communication",
+    "type": "soft-skill",
+    "aliases": [
+      "communicating"
+    ]
+  },
+  {
+    "skillId": "problem-solving",
+    "skillName": "Problem Solving",
+    "type": "soft-skill",
+    "aliases": [
+      "problem solving"
+    ]
+  },
+  {
+    "skillId": "teamwork",
+    "skillName": "Teamwork",
+    "type": "soft-skill",
+    "aliases": [
+      "collaboration"
+    ]
+  },
+  {
+    "skillId": "time-management",
+    "skillName": "Time Management",
+    "type": "soft-skill",
+    "aliases": [
+      "time mgmt",
+      "tm"
+    ]
+  },
+  {
+    "skillId": "bootstrap",
+    "skillName": "Bootstrap",
+    "type": "framework",
+    "aliases": [
+      "bootstrap css"
+    ]
+  },
+  {
+    "skillId": "tailwind-css",
+    "skillName": "Tailwind CSS",
+    "type": "framework",
+    "aliases": [
+      "tailwind"
+    ]
+  },
+  {
+    "skillId": "next-js",
+    "skillName": "Next.js",
+    "type": "framework",
+    "aliases": [
+      "nextjs",
+      "next"
+    ]
+  },
+  {
+    "skillId": "redux",
+    "skillName": "Redux",
+    "type": "framework",
+    "aliases": [
+      "reduxjs"
+    ]
+  },
+  {
+    "skillId": "react-router",
+    "skillName": "React Router",
+    "type": "framework",
+    "aliases": [
+      "reactrouter"
+    ]
+  },
+  {
+    "skillId": "axios",
+    "skillName": "Axios",
+    "type": "tool",
+    "aliases": []
+  },
+  {
+    "skillId": "jquery",
+    "skillName": "jQuery",
+    "type": "framework",
+    "aliases": [
+      "jquery"
+    ]
+  },
+  {
+    "skillId": "sass",
+    "skillName": "Sass",
+    "type": "tool",
+    "aliases": [
+      "scss"
+    ]
+  },
+  {
+    "skillId": "less-css",
+    "skillName": "Less CSS",
+    "type": "tool",
+    "aliases": [
+      "less"
+    ]
+  },
+  {
+    "skillId": "responsive-web-design",
+    "skillName": "Responsive Web Design",
+    "type": "concept",
+    "aliases": [
+      "responsive design",
+      "rwd"
+    ]
+  },
+  {
+    "skillId": "dom-manipulation",
+    "skillName": "DOM Manipulation",
+    "type": "concept",
+    "aliases": [
+      "dom"
+    ]
+  },
+  {
+    "skillId": "web-accessibility",
+    "skillName": "Web Accessibility",
+    "type": "concept",
+    "aliases": [
+      "a11y",
+      "accessibility"
+    ]
+  },
+  {
+    "skillId": "http",
+    "skillName": "HTTP",
+    "type": "concept",
+    "aliases": []
+  },
+  {
+    "skillId": "https",
+    "skillName": "HTTPS",
+    "type": "concept",
+    "aliases": []
+  },
+  {
+    "skillId": "json",
+    "skillName": "JSON",
+    "type": "concept",
+    "aliases": []
+  },
+  {
+    "skillId": "api-design",
+    "skillName": "API Design",
+    "type": "concept",
+    "aliases": [
+      "api design"
+    ]
+  },
+  {
+    "skillId": "authentication",
+    "skillName": "Authentication",
+    "type": "concept",
+    "aliases": [
+      "auth"
+    ]
+  },
+  {
+    "skillId": "authorization",
+    "skillName": "Authorization",
+    "type": "concept",
+    "aliases": [
+      "authz"
+    ]
+  },
+  {
+    "skillId": "jwt",
+    "skillName": "JSON Web Tokens",
+    "type": "concept",
+    "aliases": [
+      "jwt"
+    ]
+  },
+  {
+    "skillId": "oauth-2",
+    "skillName": "OAuth 2.0",
+    "type": "concept",
+    "aliases": [
+      "oauth",
+      "oauth2"
+    ]
+  },
+  {
+    "skillId": "cookies-and-sessions",
+    "skillName": "Cookies And Sessions",
+    "type": "concept",
+    "aliases": [
+      "sessions",
+      "cookies"
+    ]
+  },
+  {
+    "skillId": "cors",
+    "skillName": "CORS",
+    "type": "concept",
+    "aliases": [
+      "cross origin resource sharing"
+    ]
+  },
+  {
+    "skillId": "mvc-architecture",
+    "skillName": "MVC Architecture",
+    "type": "concept",
+    "aliases": [
+      "mvc"
+    ]
+  },
+  {
+    "skillId": "software-development-life-cycle",
+    "skillName": "Software Development Life Cycle",
+    "type": "concept",
+    "aliases": [
+      "sdlc"
+    ]
+  },
+  {
+    "skillId": "agile-methodology",
+    "skillName": "Agile Methodology",
+    "type": "concept",
+    "aliases": [
+      "agile"
+    ]
+  },
+  {
+    "skillId": "scrum",
+    "skillName": "Scrum",
+    "type": "concept",
+    "aliases": []
+  },
+  {
+    "skillId": "kanban",
+    "skillName": "Kanban",
+    "type": "concept",
+    "aliases": []
+  },
+  {
+    "skillId": "jira",
+    "skillName": "Jira",
+    "type": "tool",
+    "aliases": []
+  },
+  {
+    "skillId": "trello",
+    "skillName": "Trello",
+    "type": "tool",
+    "aliases": []
+  },
+  {
+    "skillId": "notion",
+    "skillName": "Notion",
+    "type": "tool",
+    "aliases": []
+  },
+  {
+    "skillId": "figma",
+    "skillName": "Figma",
+    "type": "tool",
+    "aliases": []
+  },
+  {
+    "skillId": "ui-ux-design-basics",
+    "skillName": "UI UX Design Basics",
+    "type": "domain",
+    "aliases": [
+      "ui/ux",
+      "ux",
+      "ui"
+    ]
+  },
+  {
+    "skillId": "wireframing",
+    "skillName": "Wireframing",
+    "type": "concept",
+    "aliases": []
+  },
+  {
+    "skillId": "prototyping",
+    "skillName": "Prototyping",
+    "type": "concept",
+    "aliases": []
+  },
+  {
+    "skillId": "user-research",
+    "skillName": "User Research",
+    "type": "concept",
+    "aliases": []
+  },
+  {
+    "skillId": "git-branching",
+    "skillName": "Git Branching",
+    "type": "concept",
+    "aliases": [
+      "branching"
+    ]
+  },
+  {
+    "skillId": "pull-requests",
+    "skillName": "Pull Requests",
+    "type": "concept",
+    "aliases": [
+      "pr",
+      "prs"
+    ]
+  },
+  {
+    "skillId": "code-review",
+    "skillName": "Code Review",
+    "type": "concept",
+    "aliases": [
+      "review"
+    ]
+  },
+  {
+    "skillId": "debugging",
+    "skillName": "Debugging",
+    "type": "concept",
+    "aliases": [
+      "troubleshooting"
+    ]
+  },
+  {
+    "skillId": "unit-testing",
+    "skillName": "Unit Testing",
+    "type": "concept",
+    "aliases": [
+      "unit tests"
+    ]
+  },
+  {
+    "skillId": "integration-testing",
+    "skillName": "Integration Testing",
+    "type": "concept",
+    "aliases": [
+      "integration tests"
+    ]
+  },
+  {
+    "skillId": "test-driven-development",
+    "skillName": "Test Driven Development",
+    "type": "concept",
+    "aliases": [
+      "tdd"
+    ]
+  },
+  {
+    "skillId": "pytest",
+    "skillName": "Pytest",
+    "type": "tool",
+    "aliases": []
+  },
+  {
+    "skillId": "unittest-python",
+    "skillName": "Python Unittest",
+    "type": "tool",
+    "aliases": [
+      "unittest"
+    ]
+  },
+  {
+    "skillId": "junit",
+    "skillName": "JUnit",
+    "type": "tool",
+    "aliases": []
+  },
+  {
+    "skillId": "jest",
+    "skillName": "Jest",
+    "type": "tool",
+    "aliases": []
+  },
+  {
+    "skillId": "mocha",
+    "skillName": "Mocha",
+    "type": "tool",
+    "aliases": []
+  },
+  {
+    "skillId": "chai",
+    "skillName": "Chai",
+    "type": "tool",
+    "aliases": []
+  },
+  {
+    "skillId": "selenium",
+    "skillName": "Selenium",
+    "type": "tool",
+    "aliases": []
+  },
+  {
+    "skillId": "postman",
+    "skillName": "Postman",
+    "type": "tool",
+    "aliases": []
+  },
+  {
+    "skillId": "swagger-openapi",
+    "skillName": "Swagger OpenAPI",
+    "type": "tool",
+    "aliases": [
+      "swagger",
+      "openapi"
+    ]
+  },
+  {
+    "skillId": "chrome-devtools",
+    "skillName": "Chrome DevTools",
+    "type": "tool",
+    "aliases": [
+      "devtools"
+    ]
+  },
+  {
+    "skillId": "npm",
+    "skillName": "NPM",
+    "type": "tool",
+    "aliases": [
+      "npm"
+    ]
+  },
+  {
+    "skillId": "yarn",
+    "skillName": "Yarn",
+    "type": "tool",
+    "aliases": [
+      "yarnpkg"
+    ]
+  },
+  {
+    "skillId": "pnpm",
+    "skillName": "PNPM",
+    "type": "tool",
+    "aliases": [
+      "pnpm"
+    ]
+  },
+  {
+    "skillId": "webpack",
+    "skillName": "Webpack",
+    "type": "tool",
+    "aliases": []
+  },
+  {
+    "skillId": "vite",
+    "skillName": "Vite",
+    "type": "tool",
+    "aliases": []
+  },
+  {
+    "skillId": "babel",
+    "skillName": "Babel",
+    "type": "tool",
+    "aliases": []
+  },
+  {
+    "skillId": "eslint",
+    "skillName": "ESLint",
+    "type": "tool",
+    "aliases": [
+      "eslint"
+    ]
+  },
+  {
+    "skillId": "prettier",
+    "skillName": "Prettier",
+    "type": "tool",
+    "aliases": []
+  },
+  {
+    "skillId": "maven",
+    "skillName": "Maven",
+    "type": "tool",
+    "aliases": []
+  },
+  {
+    "skillId": "gradle",
+    "skillName": "Gradle",
+    "type": "tool",
+    "aliases": []
+  },
+  {
+    "skillId": "pip",
+    "skillName": "Pip",
+    "type": "tool",
+    "aliases": [
+      "pip"
+    ]
+  },
+  {
+    "skillId": "virtualenv",
+    "skillName": "Virtualenv",
+    "type": "tool",
+    "aliases": [
+      "venv",
+      "virtual env"
+    ]
+  },
+  {
+    "skillId": "conda",
+    "skillName": "Conda",
+    "type": "tool",
+    "aliases": [
+      "anaconda"
+    ]
+  },
+  {
+    "skillId": "jupyter-notebook",
+    "skillName": "Jupyter Notebook",
+    "type": "tool",
+    "aliases": [
+      "jupyter"
+    ]
+  },
+  {
+    "skillId": "google-colab",
+    "skillName": "Google Colab",
+    "type": "tool",
+    "aliases": [
+      "colab"
+    ]
+  },
+  {
+    "skillId": "matplotlib",
+    "skillName": "Matplotlib",
+    "type": "tool",
+    "aliases": [
+      "mpl"
+    ]
+  },
+  {
+    "skillId": "seaborn",
+    "skillName": "Seaborn",
+    "type": "tool",
+    "aliases": [
+      "sns"
+    ]
+  },
+  {
+    "skillId": "scikit-learn",
+    "skillName": "Scikit Learn",
+    "type": "tool",
+    "aliases": [
+      "sklearn",
+      "scikit"
+    ]
+  },
+  {
+    "skillId": "machine-learning-basics",
+    "skillName": "Machine Learning Basics",
+    "type": "concept",
+    "aliases": [
+      "ml basics",
+      "ml"
+    ]
+  },
+  {
+    "skillId": "supervised-learning",
+    "skillName": "Supervised Learning",
+    "type": "concept",
+    "aliases": []
+  },
+  {
+    "skillId": "unsupervised-learning",
+    "skillName": "Unsupervised Learning",
+    "type": "concept",
+    "aliases": []
+  },
+  {
+    "skillId": "linear-regression",
+    "skillName": "Linear Regression",
+    "type": "concept",
+    "aliases": []
+  },
+  {
+    "skillId": "logistic-regression",
+    "skillName": "Logistic Regression",
+    "type": "concept",
+    "aliases": []
+  },
+  {
+    "skillId": "decision-trees",
+    "skillName": "Decision Trees",
+    "type": "concept",
+    "aliases": []
+  },
+  {
+    "skillId": "random-forest",
+    "skillName": "Random Forest",
+    "type": "concept",
+    "aliases": [
+      "random forests"
+    ]
+  },
+  {
+    "skillId": "k-nearest-neighbors",
+    "skillName": "K Nearest Neighbors",
+    "type": "concept",
+    "aliases": [
+      "knn"
+    ]
+  },
+  {
+    "skillId": "naive-bayes",
+    "skillName": "Naive Bayes",
+    "type": "concept",
+    "aliases": []
+  },
+  {
+    "skillId": "clustering",
+    "skillName": "Clustering",
+    "type": "concept",
+    "aliases": [
+      "kmeans",
+      "k-means"
+    ]
+  },
+  {
+    "skillId": "data-visualization",
+    "skillName": "Data Visualization",
+    "type": "domain",
+    "aliases": [
+      "dataviz",
+      "visualization"
+    ]
+  },
+  {
+    "skillId": "excel-functions",
+    "skillName": "Excel Functions",
+    "type": "concept",
+    "aliases": [
+      "excel formulas",
+      "formulas"
+    ]
+  },
+  {
+    "skillId": "pivot-tables",
+    "skillName": "Pivot Tables",
+    "type": "concept",
+    "aliases": [
+      "pivots"
+    ]
+  },
+  {
+    "skillId": "powerpoint",
+    "skillName": "Microsoft PowerPoint",
+    "type": "tool",
+    "aliases": [
+      "ppt",
+      "pptx",
+      "power point"
+    ]
+  },
+  {
+    "skillId": "microsoft-word",
+    "skillName": "Microsoft Word",
+    "type": "tool",
+    "aliases": [
+      "word"
+    ]
+  },
+  {
+    "skillId": "google-sheets",
+    "skillName": "Google Sheets",
+    "type": "tool",
+    "aliases": [
+      "sheets"
+    ]
+  },
+  {
+    "skillId": "google-docs",
+    "skillName": "Google Docs",
+    "type": "tool",
+    "aliases": [
+      "docs"
+    ]
+  },
+  {
+    "skillId": "power-bi",
+    "skillName": "Power BI",
+    "type": "tool",
+    "aliases": [
+      "powerbi"
+    ]
+  },
+  {
+    "skillId": "tableau",
+    "skillName": "Tableau",
+    "type": "tool",
+    "aliases": []
+  },
+  {
+    "skillId": "mysql",
+    "skillName": "MySQL",
+    "type": "tool",
+    "aliases": []
+  },
+  {
+    "skillId": "postgresql",
+    "skillName": "PostgreSQL",
+    "type": "tool",
+    "aliases": [
+      "postgres"
+    ]
+  },
+  {
+    "skillId": "sqlite",
+    "skillName": "SQLite",
+    "type": "tool",
+    "aliases": []
+  },
+  {
+    "skillId": "mongodb",
+    "skillName": "MongoDB",
+    "type": "tool",
+    "aliases": []
+  },
+  {
+    "skillId": "firebase",
+    "skillName": "Firebase",
+    "type": "tool",
+    "aliases": []
+  },
+  {
+    "skillId": "redis",
+    "skillName": "Redis",
+    "type": "tool",
+    "aliases": []
+  },
+  {
+    "skillId": "orm-basics",
+    "skillName": "ORM Basics",
+    "type": "concept",
+    "aliases": [
+      "orm"
+    ]
+  },
+  {
+    "skillId": "sql-joins",
+    "skillName": "SQL Joins",
+    "type": "concept",
+    "aliases": [
+      "joins"
+    ]
+  },
+  {
+    "skillId": "sql-indexes",
+    "skillName": "SQL Indexes",
+    "type": "concept",
+    "aliases": [
+      "indexing"
+    ]
+  },
+  {
+    "skillId": "normalization",
+    "skillName": "Database Normalization",
+    "type": "concept",
+    "aliases": [
+      "normalisation",
+      "normalization"
+    ]
+  },
+  {
+    "skillId": "transactions",
+    "skillName": "Database Transactions",
+    "type": "concept",
+    "aliases": [
+      "acid",
+      "transactions"
+    ]
+  },
+  {
+    "skillId": "acid-properties",
+    "skillName": "ACID Properties",
+    "type": "concept",
+    "aliases": [
+      "acid"
+    ]
+  },
+  {
+    "skillId": "er-diagrams",
+    "skillName": "ER Diagrams",
+    "type": "concept",
+    "aliases": [
+      "erd",
+      "er diagram"
+    ]
+  },
+  {
+    "skillId": "sql-injection-awareness",
+    "skillName": "SQL Injection Awareness",
+    "type": "concept",
+    "aliases": [
+      "sql injection",
+      "sqli"
+    ]
+  },
+  {
+    "skillId": "docker-basics",
+    "skillName": "Docker Basics",
+    "type": "tool",
+    "aliases": [
+      "docker"
+    ]
+  },
+  {
+    "skillId": "containers-basics",
+    "skillName": "Containers Basics",
+    "type": "concept",
+    "aliases": [
+      "containers"
+    ]
+  },
+  {
+    "skillId": "kubernetes-basics",
+    "skillName": "Kubernetes Basics",
+    "type": "tool",
+    "aliases": [
+      "k8s",
+      "kubernetes"
+    ]
+  },
+  {
+    "skillId": "aws-basics",
+    "skillName": "AWS Basics",
+    "type": "tool",
+    "aliases": [
+      "aws"
+    ]
+  },
+  {
+    "skillId": "azure-basics",
+    "skillName": "Azure Basics",
+    "type": "tool",
+    "aliases": [
+      "azure"
+    ]
+  },
+  {
+    "skillId": "gcp-basics",
+    "skillName": "Google Cloud Basics",
+    "type": "tool",
+    "aliases": [
+      "gcp",
+      "google cloud"
+    ]
+  },
+  {
+    "skillId": "linux-command-line",
+    "skillName": "Linux Command Line",
+    "type": "tool",
+    "aliases": [
+      "cli",
+      "terminal"
+    ]
+  },
+  {
+    "skillId": "bash-scripting",
+    "skillName": "Bash Scripting",
+    "type": "language",
+    "aliases": [
+      "bash"
+    ]
+  },
+  {
+    "skillId": "windows-command-line",
+    "skillName": "Windows Command Line",
+    "type": "tool",
+    "aliases": [
+      "cmd"
+    ]
+  },
+  {
+    "skillId": "powershell",
+    "skillName": "PowerShell",
+    "type": "language",
+    "aliases": [
+      "pwsh"
+    ]
+  },
+  {
+    "skillId": "data-structures",
+    "skillName": "Data Structures",
+    "type": "concept",
+    "aliases": [
+      "data structures"
+    ]
+  },
+  {
+    "skillId": "algorithms",
+    "skillName": "Algorithms",
+    "type": "concept",
+    "aliases": [
+      "algo"
+    ]
+  },
+  {
+    "skillId": "big-o-notation",
+    "skillName": "Big O Notation",
+    "type": "concept",
+    "aliases": [
+      "time complexity",
+      "complexity"
+    ]
+  },
+  {
+    "skillId": "recursion",
+    "skillName": "Recursion",
+    "type": "concept",
+    "aliases": []
+  },
+  {
+    "skillId": "dynamic-programming",
+    "skillName": "Dynamic Programming",
+    "type": "concept",
+    "aliases": [
+      "dp"
+    ]
+  },
+  {
+    "skillId": "greedy-algorithms",
+    "skillName": "Greedy Algorithms",
+    "type": "concept",
+    "aliases": [
+      "greedy"
+    ]
+  },
+  {
+    "skillId": "graph-algorithms",
+    "skillName": "Graph Algorithms",
+    "type": "concept",
+    "aliases": [
+      "graphs"
+    ]
+  },
+  {
+    "skillId": "trees",
+    "skillName": "Trees",
+    "type": "concept",
+    "aliases": [
+      "tree ds"
+    ]
+  },
+  {
+    "skillId": "hash-tables",
+    "skillName": "Hash Tables",
+    "type": "concept",
+    "aliases": [
+      "hashmap",
+      "hash map"
+    ]
+  },
+  {
+    "skillId": "stacks-and-queues",
+    "skillName": "Stacks And Queues",
+    "type": "concept",
+    "aliases": [
+      "stack",
+      "queue"
+    ]
+  },
+  {
+    "skillId": "sorting-algorithms",
+    "skillName": "Sorting Algorithms",
+    "type": "concept",
+    "aliases": [
+      "sorting"
+    ]
+  },
+  {
+    "skillId": "searching-algorithms",
+    "skillName": "Searching Algorithms",
+    "type": "concept",
+    "aliases": [
+      "searching"
+    ]
+  },
+  {
+    "skillId": "bit-manipulation",
+    "skillName": "Bit Manipulation",
+    "type": "concept",
+    "aliases": [
+      "bits"
+    ]
+  },
+  {
+    "skillId": "oop-design-principles",
+    "skillName": "OOP Design Principles",
+    "type": "concept",
+    "aliases": [
+      "solid",
+      "oop principles"
+    ]
+  },
+  {
+    "skillId": "design-patterns",
+    "skillName": "Design Patterns",
+    "type": "concept",
+    "aliases": [
+      "patterns"
+    ]
+  },
+  {
+    "skillId": "uml-diagrams",
+    "skillName": "UML Diagrams",
+    "type": "concept",
+    "aliases": [
+      "uml"
+    ]
+  },
+  {
+    "skillId": "system-design-basics",
+    "skillName": "System Design Basics",
+    "type": "concept",
+    "aliases": [
+      "system design"
+    ]
+  },
+  {
+    "skillId": "computer-architecture-basics",
+    "skillName": "Computer Architecture Basics",
+    "type": "concept",
+    "aliases": [
+      "csa",
+      "computer organization"
+    ]
+  },
+  {
+    "skillId": "memory-management",
+    "skillName": "Memory Management",
+    "type": "concept",
+    "aliases": []
+  },
+  {
+    "skillId": "process-scheduling",
+    "skillName": "Process Scheduling",
+    "type": "concept",
+    "aliases": [
+      "cpu scheduling"
+    ]
+  },
+  {
+    "skillId": "threads-and-concurrency",
+    "skillName": "Threads And Concurrency",
+    "type": "concept",
+    "aliases": [
+      "multithreading",
+      "concurrency"
+    ]
+  },
+  {
+    "skillId": "deadlocks",
+    "skillName": "Deadlocks",
+    "type": "concept",
+    "aliases": []
+  },
+  {
+    "skillId": "networking-basics",
+    "skillName": "Networking Basics",
+    "type": "concept",
+    "aliases": [
+      "net basics"
+    ]
+  },
+  {
+    "skillId": "ip-addressing",
+    "skillName": "IP Addressing",
+    "type": "concept",
+    "aliases": [
+      "ip"
+    ]
+  },
+  {
+    "skillId": "dns-basics",
+    "skillName": "DNS Basics",
+    "type": "concept",
+    "aliases": [
+      "dns"
+    ]
+  },
+  {
+    "skillId": "tcp-ip",
+    "skillName": "TCP IP",
+    "type": "concept",
+    "aliases": [
+      "tcp/ip"
+    ]
+  },
+  {
+    "skillId": "udp",
+    "skillName": "UDP",
+    "type": "concept",
+    "aliases": []
+  },
+  {
+    "skillId": "routing-basics",
+    "skillName": "Routing Basics",
+    "type": "concept",
+    "aliases": [
+      "routing"
+    ]
+  },
+  {
+    "skillId": "subnetting",
+    "skillName": "Subnetting",
+    "type": "concept",
+    "aliases": [
+      "subnet"
+    ]
+  },
+  {
+    "skillId": "html-forms",
+    "skillName": "HTML Forms",
+    "type": "concept",
+    "aliases": [
+      "forms"
+    ]
+  },
+  {
+    "skillId": "css-flexbox",
+    "skillName": "CSS Flexbox",
+    "type": "concept",
+    "aliases": [
+      "flexbox"
+    ]
+  },
+  {
+    "skillId": "css-grid",
+    "skillName": "CSS Grid",
+    "type": "concept",
+    "aliases": [
+      "grid"
+    ]
+  },
+  {
+    "skillId": "css-animations",
+    "skillName": "CSS Animations",
+    "type": "concept",
+    "aliases": [
+      "animations"
+    ]
+  },
+  {
+    "skillId": "react-hooks",
+    "skillName": "React Hooks",
+    "type": "concept",
+    "aliases": [
+      "hooks"
+    ]
+  },
+  {
+    "skillId": "state-management",
+    "skillName": "State Management",
+    "type": "concept",
+    "aliases": [
+      "state"
+    ]
+  },
+  {
+    "skillId": "node-event-loop",
+    "skillName": "Node Event Loop",
+    "type": "concept",
+    "aliases": [
+      "event loop"
+    ]
+  },
+  {
+    "skillId": "express-middleware",
+    "skillName": "Express Middleware",
+    "type": "concept",
+    "aliases": [
+      "middleware"
+    ]
+  },
+  {
+    "skillId": "graphql-basics",
+    "skillName": "GraphQL Basics",
+    "type": "concept",
+    "aliases": [
+      "graphql"
+    ]
+  },
+  {
+    "skillId": "websockets",
+    "skillName": "WebSockets",
+    "type": "concept",
+    "aliases": [
+      "ws",
+      "web sockets"
+    ]
+  },
+  {
+    "skillId": "web-security-basics",
+    "skillName": "Web Security Basics",
+    "type": "concept",
+    "aliases": [
+      "web security"
+    ]
+  },
+  {
+    "skillId": "cross-site-scripting-awareness",
+    "skillName": "Cross Site Scripting Awareness",
+    "type": "concept",
+    "aliases": [
+      "xss",
+      "cross site scripting"
+    ]
+  },
+  {
+    "skillId": "csrf-awareness",
+    "skillName": "CSRF Awareness",
+    "type": "concept",
+    "aliases": [
+      "csrf"
+    ]
+  },
+  {
+    "skillId": "password-hashing",
+    "skillName": "Password Hashing",
+    "type": "concept",
+    "aliases": [
+      "hashing"
+    ]
+  },
+  {
+    "skillId": "encryption-basics",
+    "skillName": "Encryption Basics",
+    "type": "concept",
+    "aliases": [
+      "crypto basics",
+      "encryption"
+    ]
+  },
+  {
+    "skillId": "data-privacy-basics",
+    "skillName": "Data Privacy Basics",
+    "type": "concept",
+    "aliases": [
+      "privacy"
+    ]
+  },
+  {
+    "skillId": "documentation-writing",
+    "skillName": "Documentation Writing",
+    "type": "soft-skill",
+    "aliases": [
+      "documentation",
+      "docs writing"
+    ]
+  },
+  {
+    "skillId": "technical-writing",
+    "skillName": "Technical Writing",
+    "type": "soft-skill",
+    "aliases": [
+      "writing"
+    ]
+  },
+  {
+    "skillId": "presentation-skills",
+    "skillName": "Presentation Skills",
+    "type": "soft-skill",
+    "aliases": [
+      "presenting"
+    ]
+  },
+  {
+    "skillId": "public-speaking",
+    "skillName": "Public Speaking",
+    "type": "soft-skill",
+    "aliases": [
+      "speaking"
+    ]
+  },
+  {
+    "skillId": "critical-thinking",
+    "skillName": "Critical Thinking",
+    "type": "soft-skill",
+    "aliases": [
+      "critical thinking"
+    ]
+  },
+  {
+    "skillId": "creativity",
+    "skillName": "Creativity",
+    "type": "soft-skill",
+    "aliases": []
+  },
+  {
+    "skillId": "adaptability",
+    "skillName": "Adaptability",
+    "type": "soft-skill",
+    "aliases": [
+      "flexibility"
+    ]
+  },
+  {
+    "skillId": "leadership",
+    "skillName": "Leadership",
+    "type": "soft-skill",
+    "aliases": []
+  },
+  {
+    "skillId": "active-listening",
+    "skillName": "Active Listening",
+    "type": "soft-skill",
+    "aliases": [
+      "listening"
+    ]
+  },
+  {
+    "skillId": "negotiation",
+    "skillName": "Negotiation",
+    "type": "soft-skill",
+    "aliases": []
+  },
+  {
+    "skillId": "conflict-resolution",
+    "skillName": "Conflict Resolution",
+    "type": "soft-skill",
+    "aliases": [
+      "conflict management"
+    ]
+  },
+  {
+    "skillId": "emotional-intelligence",
+    "skillName": "Emotional Intelligence",
+    "type": "soft-skill",
+    "aliases": [
+      "eq"
+    ]
+  },
+  {
+    "skillId": "self-motivation",
+    "skillName": "Self Motivation",
+    "type": "soft-skill",
+    "aliases": [
+      "motivation"
+    ]
+  },
+  {
+    "skillId": "goal-setting",
+    "skillName": "Goal Setting",
+    "type": "soft-skill",
+    "aliases": []
+  },
+  {
+    "skillId": "stress-management",
+    "skillName": "Stress Management",
+    "type": "soft-skill",
+    "aliases": []
+  },
+  {
+    "skillId": "study-skills",
+    "skillName": "Study Skills",
+    "type": "soft-skill",
+    "aliases": [
+      "learning skills"
+    ]
+  },
+  {
+    "skillId": "note-taking",
+    "skillName": "Note Taking",
+    "type": "soft-skill",
+    "aliases": [
+      "notes"
+    ]
+  },
+  {
+    "skillId": "research-skills",
+    "skillName": "Research Skills",
+    "type": "soft-skill",
+    "aliases": [
+      "research"
+    ]
+  },
+  {
+    "skillId": "resume-building",
+    "skillName": "Resume Building",
+    "type": "soft-skill",
+    "aliases": [
+      "resume",
+      "cv"
+    ]
+  },
+  {
+    "skillId": "interview-preparation",
+    "skillName": "Interview Preparation",
+    "type": "soft-skill",
+    "aliases": [
+      "interview prep"
+    ]
+  },
+  {
+    "skillId": "aptitude-testing",
+    "skillName": "Aptitude Testing",
+    "type": "concept",
+    "aliases": [
+      "aptitude"
+    ]
+  },
+  {
+    "skillId": "competitive-programming",
+    "skillName": "Competitive Programming",
+    "type": "domain",
+    "aliases": [
+      "cp"
+    ]
+  },
+  {
+    "skillId": "leetcode-practice",
+    "skillName": "LeetCode Practice",
+    "type": "tool",
+    "aliases": [
+      "leetcode"
+    ]
+  },
+  {
+    "skillId": "hackerrank",
+    "skillName": "HackerRank",
+    "type": "tool",
+    "aliases": [
+      "hacker rank"
+    ]
+  },
+  {
+    "skillId": "codeforces",
+    "skillName": "Codeforces",
+    "type": "tool",
+    "aliases": [
+      "cf"
+    ]
+  },
+  {
+    "skillId": "pair-programming",
+    "skillName": "Pair Programming",
+    "type": "concept",
+    "aliases": [
+      "pairing"
+    ]
+  },
+  {
+    "skillId": "collaboration-tools",
+    "skillName": "Collaboration Tools",
+    "type": "tool",
+    "aliases": [
+      "collab tools"
+    ]
+  },
+  {
+    "skillId": "slack",
+    "skillName": "Slack",
+    "type": "tool",
+    "aliases": []
+  },
+  {
+    "skillId": "microsoft-teams",
+    "skillName": "Microsoft Teams",
+    "type": "tool",
+    "aliases": [
+      "teams"
+    ]
+  },
+  {
+    "skillId": "zoom",
+    "skillName": "Zoom",
+    "type": "tool",
+    "aliases": []
+  },
+  {
+    "skillId": "email-etiquette",
+    "skillName": "Email Etiquette",
+    "type": "soft-skill",
+    "aliases": [
+      "email"
+    ]
+  },
+  {
+    "skillId": "professionalism",
+    "skillName": "Professionalism",
+    "type": "soft-skill",
+    "aliases": []
+  },
+  {
+    "skillId": "ethics-in-tech",
+    "skillName": "Ethics In Tech",
+    "type": "concept",
+    "aliases": [
+      "tech ethics"
+    ]
+  },
+  {
+    "skillId": "project-management-basics",
+    "skillName": "Project Management Basics",
+    "type": "domain",
+    "aliases": [
+      "pm basics",
+      "project mgmt"
+    ]
+  },
+  {
+    "skillId": "requirements-gathering",
+    "skillName": "Requirements Gathering",
+    "type": "concept",
+    "aliases": [
+      "requirements"
+    ]
+  },
+  {
+    "skillId": "user-stories",
+    "skillName": "User Stories",
+    "type": "concept",
+    "aliases": [
+      "stories"
+    ]
+  },
+  {
+    "skillId": "roadmapping",
+    "skillName": "Product Roadmapping",
+    "type": "concept",
+    "aliases": [
+      "roadmap"
+    ]
+  },
+  {
+    "skillId": "product-thinking",
+    "skillName": "Product Thinking",
+    "type": "domain",
+    "aliases": [
+      "product sense"
+    ]
+  },
+  {
+    "skillId": "customer-empathy",
+    "skillName": "Customer Empathy",
+    "type": "soft-skill",
+    "aliases": [
+      "empathy"
+    ]
+  },
+  {
+    "skillId": "data-structures-in-c",
+    "skillName": "Data Structures In C",
+    "type": "concept",
+    "aliases": [
+      "dsa in c"
+    ]
+  },
+  {
+    "skillId": "java-collections",
+    "skillName": "Java Collections Framework",
+    "type": "concept",
+    "aliases": [
+      "collections"
+    ]
+  },
+  {
+    "skillId": "spring-boot",
+    "skillName": "Spring Boot",
+    "type": "framework",
+    "aliases": [
+      "springboot",
+      "spring"
+    ]
+  },
+  {
+    "skillId": "spring-mvc",
+    "skillName": "Spring MVC",
+    "type": "framework",
+    "aliases": [
+      "spring mvc"
+    ]
+  },
+  {
+    "skillId": "hibernate",
+    "skillName": "Hibernate",
+    "type": "framework",
+    "aliases": []
+  },
+  {
+    "skillId": "jdbc",
+    "skillName": "JDBC",
+    "type": "tool",
+    "aliases": [
+      "jdbc"
+    ]
+  },
+  {
+    "skillId": "servlets",
+    "skillName": "Java Servlets",
+    "type": "framework",
+    "aliases": [
+      "servlet"
+    ]
+  },
+  {
+    "skillId": "jsp",
+    "skillName": "JSP",
+    "type": "framework",
+    "aliases": [
+      "java server pages"
+    ]
+  },
+  {
+    "skillId": "flask",
+    "skillName": "Flask",
+    "type": "framework",
+    "aliases": []
+  },
+  {
+    "skillId": "django",
+    "skillName": "Django",
+    "type": "framework",
+    "aliases": []
+  },
+  {
+    "skillId": "fastapi",
+    "skillName": "FastAPI",
+    "type": "framework",
+    "aliases": [
+      "fast api"
+    ]
+  },
+  {
+    "skillId": "python-oop",
+    "skillName": "Python OOP",
+    "type": "concept",
+    "aliases": [
+      "oop in python"
+    ]
+  },
+  {
+    "skillId": "java-oop",
+    "skillName": "Java OOP",
+    "type": "concept",
+    "aliases": [
+      "oop in java"
+    ]
+  },
+  {
+    "skillId": "c-programming-basics",
+    "skillName": "C Programming Basics",
+    "type": "concept",
+    "aliases": [
+      "c basics"
+    ]
+  },
+  {
+    "skillId": "cpp-stl",
+    "skillName": "C Plus Plus STL",
+    "type": "concept",
+    "aliases": [
+      "stl"
+    ]
+  },
+  {
+    "skillId": "java-basics",
+    "skillName": "Java Basics",
+    "type": "concept",
+    "aliases": [
+      "java fundamentals"
+    ]
+  },
+  {
+    "skillId": "javascript-es6",
+    "skillName": "JavaScript ES6",
+    "type": "concept",
+    "aliases": [
+      "es6",
+      "ecmascript 6"
+    ]
+  },
+  {
+    "skillId": "typescript-basics",
+    "skillName": "TypeScript Basics",
+    "type": "concept",
+    "aliases": [
+      "ts basics"
+    ]
+  },
+  {
+    "skillId": "react-component-design",
+    "skillName": "React Component Design",
+    "type": "concept",
+    "aliases": [
+      "components"
+    ]
+  },
+  {
+    "skillId": "html-css-basics",
+    "skillName": "HTML And CSS Basics",
+    "type": "concept",
+    "aliases": [
+      "html css"
+    ]
+  },
+  {
+    "skillId": "web-hosting-basics",
+    "skillName": "Web Hosting Basics",
+    "type": "concept",
+    "aliases": [
+      "hosting"
+    ]
+  },
+  {
+    "skillId": "domain-and-dns",
+    "skillName": "Domain And DNS",
+    "type": "concept",
+    "aliases": [
+      "domain",
+      "dns"
+    ]
+  },
+  {
+    "skillId": "github-actions-basics",
+    "skillName": "GitHub Actions Basics",
+    "type": "tool",
+    "aliases": [
+      "github actions"
+    ]
+  },
+  {
+    "skillId": "ci-cd-basics",
+    "skillName": "CI CD Basics",
+    "type": "concept",
+    "aliases": [
+      "cicd",
+      "ci/cd"
+    ]
+  },
+  {
+    "skillId": "vercel",
+    "skillName": "Vercel",
+    "type": "tool",
+    "aliases": []
+  },
+  {
+    "skillId": "netlify",
+    "skillName": "Netlify",
+    "type": "tool",
+    "aliases": []
+  },
+  {
+    "skillId": "render-hosting",
+    "skillName": "Render Hosting",
+    "type": "tool",
+    "aliases": [
+      "render"
+    ]
+  },
+  {
+    "skillId": "heroku",
+    "skillName": "Heroku",
+    "type": "tool",
+    "aliases": []
+  },
+  {
+    "skillId": "railway",
+    "skillName": "Railway",
+    "type": "tool",
+    "aliases": [
+      "railwayapp"
+    ]
+  },
+  {
+    "skillId": "replit",
+    "skillName": "Replit",
+    "type": "tool",
+    "aliases": [
+      "repl.it",
+      "repl"
+    ]
+  },
+  {
+    "skillId": "codesandbox",
+    "skillName": "CodeSandbox",
+    "type": "tool",
+    "aliases": [
+      "code sandbox"
+    ]
+  },
+  {
+    "skillId": "postman-collections",
+    "skillName": "Postman Collections",
+    "type": "concept",
+    "aliases": [
+      "collections"
+    ]
+  },
+  {
+    "skillId": "api-testing",
+    "skillName": "API Testing",
+    "type": "concept",
+    "aliases": [
+      "api tests"
+    ]
+  },
+  {
+    "skillId": "json-parsing",
+    "skillName": "JSON Parsing",
+    "type": "concept",
+    "aliases": [
+      "parsing"
+    ]
+  },
+  {
+    "skillId": "logging-basics",
+    "skillName": "Logging Basics",
+    "type": "concept",
+    "aliases": [
+      "logging"
+    ]
+  },
+  {
+    "skillId": "error-handling",
+    "skillName": "Error Handling",
+    "type": "concept",
+    "aliases": [
+      "exceptions"
+    ]
+  },
+  {
+    "skillId": "exception-handling",
+    "skillName": "Exception Handling",
+    "type": "concept",
+    "aliases": [
+      "exceptions"
+    ]
+  },
+  {
+    "skillId": "file-io",
+    "skillName": "File I O",
+    "type": "concept",
+    "aliases": [
+      "file io",
+      "i/o"
+    ]
+  },
+  {
+    "skillId": "regular-expressions",
+    "skillName": "Regular Expressions",
+    "type": "concept",
+    "aliases": [
+      "regex"
+    ]
+  },
+  {
+    "skillId": "data-cleaning",
+    "skillName": "Data Cleaning",
+    "type": "concept",
+    "aliases": [
+      "data cleansing"
+    ]
+  },
+  {
+    "skillId": "exploratory-data-analysis",
+    "skillName": "Exploratory Data Analysis",
+    "type": "concept",
+    "aliases": [
+      "eda"
+    ]
+  },
+  {
+    "skillId": "data-preprocessing",
+    "skillName": "Data Preprocessing",
+    "type": "concept",
+    "aliases": [
+      "preprocessing"
+    ]
+  },
+  {
+    "skillId": "sql-window-functions",
+    "skillName": "SQL Window Functions",
+    "type": "concept",
+    "aliases": [
+      "window functions"
+    ]
+  },
+  {
+    "skillId": "basic-math-for-cs",
+    "skillName": "Basic Math For CS",
+    "type": "concept",
+    "aliases": [
+      "discrete math basics"
+    ]
+  },
+  {
+    "skillId": "discrete-mathematics",
+    "skillName": "Discrete Mathematics",
+    "type": "concept",
+    "aliases": [
+      "dm",
+      "discrete math"
+    ]
+  },
+  {
+    "skillId": "logic-and-proofs",
+    "skillName": "Logic And Proofs",
+    "type": "concept",
+    "aliases": [
+      "logic"
+    ]
+  },
+  {
+    "skillId": "set-theory",
+    "skillName": "Set Theory",
+    "type": "concept",
+    "aliases": []
+  },
+  {
+    "skillId": "probability",
+    "skillName": "Probability",
+    "type": "concept",
+    "aliases": [
+      "prob"
+    ]
+  },
+  {
+    "skillId": "linear-algebra",
+    "skillName": "Linear Algebra",
+    "type": "concept",
+    "aliases": [
+      "lin alg"
+    ]
+  },
+  {
+    "skillId": "calculus",
+    "skillName": "Calculus",
+    "type": "concept",
+    "aliases": [
+      "calc"
+    ]
+  },
+  {
+    "skillId": "data-communication",
+    "skillName": "Data Communication",
+    "type": "concept",
+    "aliases": [
+      "data comm"
+    ]
+  },
+  {
+    "skillId": "software-engineering-basics",
+    "skillName": "Software Engineering Basics",
+    "type": "domain",
+    "aliases": [
+      "se basics",
+      "software engineering"
+    ]
+  },
+  {
+    "skillId": "requirements-engineering",
+    "skillName": "Requirements Engineering",
+    "type": "concept",
+    "aliases": [
+      "re"
+    ]
+  },
+  {
+    "skillId": "software-testing-basics",
+    "skillName": "Software Testing Basics",
+    "type": "domain",
+    "aliases": [
+      "testing"
+    ]
+  },
+  {
+    "skillId": "bug-tracking",
+    "skillName": "Bug Tracking",
+    "type": "tool",
+    "aliases": [
+      "issue tracking"
+    ]
+  },
+  {
+    "skillId": "github-issues",
+    "skillName": "GitHub Issues",
+    "type": "tool",
+    "aliases": [
+      "issues"
+    ]
+  },
+  {
+    "skillId": "gitlab",
+    "skillName": "GitLab",
+    "type": "tool",
+    "aliases": []
+  },
+  {
+    "skillId": "bitbucket",
+    "skillName": "Bitbucket",
+    "type": "tool",
+    "aliases": []
+  },
+  {
+    "skillId": "git-merge-conflicts",
+    "skillName": "Git Merge Conflicts",
+    "type": "concept",
+    "aliases": [
+      "merge conflicts"
+    ]
+  },
+  {
+    "skillId": "command-line-git",
+    "skillName": "Command Line Git",
+    "type": "tool",
+    "aliases": [
+      "git cli"
+    ]
+  },
+  {
+    "skillId": "markdown",
+    "skillName": "Markdown",
+    "type": "tool",
+    "aliases": [
+      "md"
+    ]
+  },
+  {
+    "skillId": "latex",
+    "skillName": "LaTeX",
+    "type": "tool",
+    "aliases": [
+      "tex"
+    ]
+  },
+  {
+    "skillId": "documentation-tools",
+    "skillName": "Documentation Tools",
+    "type": "tool",
+    "aliases": [
+      "docs tools"
+    ]
+  },
+  {
+    "skillId": "api-documentation",
+    "skillName": "API Documentation",
+    "type": "concept",
+    "aliases": [
+      "api docs"
+    ]
+  },
+  {
+    "skillId": "open-source-contribution",
+    "skillName": "Open Source Contribution",
+    "type": "domain",
+    "aliases": [
+      "oss",
+      "open source"
+    ]
+  },
+  {
+    "skillId": "portfolio-building",
+    "skillName": "Portfolio Building",
+    "type": "soft-skill",
+    "aliases": [
+      "portfolio"
+    ]
+  },
+  {
+    "skillId": "personal-branding",
+    "skillName": "Personal Branding",
+    "type": "soft-skill",
+    "aliases": [
+      "branding"
+    ]
+  },
+  {
+    "skillId": "networking-career",
+    "skillName": "Career Networking",
+    "type": "soft-skill",
+    "aliases": [
+      "networking"
+    ]
+  },
+  {
+    "skillId": "internship-preparation",
+    "skillName": "Internship Preparation",
+    "type": "soft-skill",
+    "aliases": [
+      "internship prep"
+    ]
+  },
+  {
+    "skillId": "cover-letter-writing",
+    "skillName": "Cover Letter Writing",
+    "type": "soft-skill",
+    "aliases": [
+      "cover letter"
+    ]
+  },
+  {
+    "skillId": "linkedin-optimization",
+    "skillName": "LinkedIn Optimization",
+    "type": "soft-skill",
+    "aliases": [
+      "linkedin"
+    ]
+  },
+  {
+    "skillId": "career-planning",
+    "skillName": "Career Planning",
+    "type": "soft-skill",
+    "aliases": [
+      "career plan"
+    ]
+  },
+  {
+    "skillId": "data-science",
+    "skillName": "Data Science",
+    "type": "domain",
+    "aliases": [
+      "ds"
+    ]
+  },
+  {
+    "skillId": "data-engineering",
+    "skillName": "Data Engineering",
+    "type": "domain",
+    "aliases": [
+      "de"
+    ]
+  },
+  {
+    "skillId": "business-analytics",
+    "skillName": "Business Analytics",
+    "type": "domain",
+    "aliases": [
+      "ba",
+      "biz analytics"
+    ]
+  },
+  {
+    "skillId": "business-intelligence",
+    "skillName": "Business Intelligence",
+    "type": "domain",
+    "aliases": [
+      "bi"
+    ]
+  },
+  {
+    "skillId": "advanced-excel",
+    "skillName": "Advanced Excel",
+    "type": "tool",
+    "aliases": [
+      "advanced excel"
+    ]
+  },
+  {
+    "skillId": "power-query",
+    "skillName": "Power Query",
+    "type": "tool",
+    "aliases": [
+      "powerquery"
+    ]
+  },
+  {
+    "skillId": "power-pivot",
+    "skillName": "Power Pivot",
+    "type": "tool",
+    "aliases": [
+      "powerpivot"
+    ]
+  },
+  {
+    "skillId": "excel-vba",
+    "skillName": "Excel VBA",
+    "type": "language",
+    "aliases": [
+      "vba"
+    ]
+  },
+  {
+    "skillId": "sql-performance-tuning",
+    "skillName": "SQL Performance Tuning",
+    "type": "concept",
+    "aliases": [
+      "query tuning",
+      "sql tuning"
+    ]
+  },
+  {
+    "skillId": "data-modeling",
+    "skillName": "Data Modeling",
+    "type": "concept",
+    "aliases": [
+      "dimensional modeling",
+      "data modelling"
+    ]
+  },
+  {
+    "skillId": "star-schema",
+    "skillName": "Star Schema",
+    "type": "concept",
+    "aliases": [
+      "star schema"
+    ]
+  },
+  {
+    "skillId": "snowflake-schema",
+    "skillName": "Snowflake Schema",
+    "type": "concept",
+    "aliases": [
+      "snowflake schema"
+    ]
+  },
+  {
+    "skillId": "etl",
+    "skillName": "ETL",
+    "type": "concept",
+    "aliases": [
+      "extract transform load"
+    ]
+  },
+  {
+    "skillId": "elt",
+    "skillName": "ELT",
+    "type": "concept",
+    "aliases": [
+      "extract load transform"
+    ]
+  },
+  {
+    "skillId": "data-warehousing",
+    "skillName": "Data Warehousing",
+    "type": "domain",
+    "aliases": [
+      "dwh",
+      "data warehouse"
+    ]
+  },
+  {
+    "skillId": "apache-airflow",
+    "skillName": "Apache Airflow",
+    "type": "tool",
+    "aliases": [
+      "airflow"
+    ]
+  },
+  {
+    "skillId": "dbt",
+    "skillName": "dbt",
+    "type": "tool",
+    "aliases": [
+      "data build tool",
+      "dbt"
+    ]
+  },
+  {
+    "skillId": "apache-spark",
+    "skillName": "Apache Spark",
+    "type": "tool",
+    "aliases": [
+      "spark"
+    ]
+  },
+  {
+    "skillId": "pyspark",
+    "skillName": "PySpark",
+    "type": "tool",
+    "aliases": [
+      "pyspark"
+    ]
+  },
+  {
+    "skillId": "hadoop",
+    "skillName": "Hadoop",
+    "type": "tool",
+    "aliases": [
+      "apache hadoop"
+    ]
+  },
+  {
+    "skillId": "hdfs",
+    "skillName": "HDFS",
+    "type": "tool",
+    "aliases": [
+      "hdfs"
+    ]
+  },
+  {
+    "skillId": "mapreduce",
+    "skillName": "MapReduce",
+    "type": "concept",
+    "aliases": [
+      "map reduce"
+    ]
+  },
+  {
+    "skillId": "apache-kafka",
+    "skillName": "Apache Kafka",
+    "type": "tool",
+    "aliases": [
+      "kafka"
+    ]
+  },
+  {
+    "skillId": "kafka-streams",
+    "skillName": "Kafka Streams",
+    "type": "tool",
+    "aliases": [
+      "kafka streams"
+    ]
+  },
+  {
+    "skillId": "apache-flink",
+    "skillName": "Apache Flink",
+    "type": "tool",
+    "aliases": [
+      "flink"
+    ]
+  },
+  {
+    "skillId": "stream-processing",
+    "skillName": "Stream Processing",
+    "type": "concept",
+    "aliases": [
+      "streaming"
+    ]
+  },
+  {
+    "skillId": "batch-processing",
+    "skillName": "Batch Processing",
+    "type": "concept",
+    "aliases": [
+      "batching"
+    ]
+  },
+  {
+    "skillId": "data-lakes",
+    "skillName": "Data Lakes",
+    "type": "domain",
+    "aliases": [
+      "data lake"
+    ]
+  },
+  {
+    "skillId": "delta-lake",
+    "skillName": "Delta Lake",
+    "type": "tool",
+    "aliases": [
+      "delta lake"
+    ]
+  },
+  {
+    "skillId": "lakehouse-architecture",
+    "skillName": "Lakehouse Architecture",
+    "type": "concept",
+    "aliases": [
+      "lakehouse"
+    ]
+  },
+  {
+    "skillId": "snowflake",
+    "skillName": "Snowflake",
+    "type": "tool",
+    "aliases": [
+      "snowflake dwh"
+    ]
+  },
+  {
+    "skillId": "bigquery",
+    "skillName": "BigQuery",
+    "type": "tool",
+    "aliases": [
+      "google bigquery"
+    ]
+  },
+  {
+    "skillId": "redshift",
+    "skillName": "Amazon Redshift",
+    "type": "tool",
+    "aliases": [
+      "redshift"
+    ]
+  },
+  {
+    "skillId": "databricks",
+    "skillName": "Databricks",
+    "type": "tool",
+    "aliases": [
+      "databricks"
+    ]
+  },
+  {
+    "skillId": "aws-s3",
+    "skillName": "AWS S3",
+    "type": "tool",
+    "aliases": [
+      "s3"
+    ]
+  },
+  {
+    "skillId": "aws-ec2",
+    "skillName": "AWS EC2",
+    "type": "tool",
+    "aliases": [
+      "ec2"
+    ]
+  },
+  {
+    "skillId": "aws-iam",
+    "skillName": "AWS IAM",
+    "type": "tool",
+    "aliases": [
+      "iam"
+    ]
+  },
+  {
+    "skillId": "aws-lambda",
+    "skillName": "AWS Lambda",
+    "type": "tool",
+    "aliases": [
+      "lambda"
+    ]
+  },
+  {
+    "skillId": "aws-cloudwatch",
+    "skillName": "AWS CloudWatch",
+    "type": "tool",
+    "aliases": [
+      "cloudwatch"
+    ]
+  },
+  {
+    "skillId": "aws-cloudformation",
+    "skillName": "AWS CloudFormation",
+    "type": "tool",
+    "aliases": [
+      "cloudformation",
+      "cfn"
+    ]
+  },
+  {
+    "skillId": "aws-rds",
+    "skillName": "AWS RDS",
+    "type": "tool",
+    "aliases": [
+      "rds"
+    ]
+  },
+  {
+    "skillId": "aws-dynamodb",
+    "skillName": "AWS DynamoDB",
+    "type": "tool",
+    "aliases": [
+      "dynamodb"
+    ]
+  },
+  {
+    "skillId": "aws-api-gateway",
+    "skillName": "AWS API Gateway",
+    "type": "tool",
+    "aliases": [
+      "api gateway"
+    ]
+  },
+  {
+    "skillId": "aws-sqs",
+    "skillName": "AWS SQS",
+    "type": "tool",
+    "aliases": [
+      "sqs"
+    ]
+  },
+  {
+    "skillId": "aws-sns",
+    "skillName": "AWS SNS",
+    "type": "tool",
+    "aliases": [
+      "sns"
+    ]
+  },
+  {
+    "skillId": "aws-ecs",
+    "skillName": "AWS ECS",
+    "type": "tool",
+    "aliases": [
+      "ecs"
+    ]
+  },
+  {
+    "skillId": "aws-eks",
+    "skillName": "AWS EKS",
+    "type": "tool",
+    "aliases": [
+      "eks"
+    ]
+  },
+  {
+    "skillId": "aws-elb",
+    "skillName": "AWS Elastic Load Balancing",
+    "type": "tool",
+    "aliases": [
+      "elb",
+      "load balancer"
+    ]
+  },
+  {
+    "skillId": "aws-vpc",
+    "skillName": "AWS VPC",
+    "type": "tool",
+    "aliases": [
+      "vpc"
+    ]
+  },
+  {
+    "skillId": "aws-route-53",
+    "skillName": "AWS Route 53",
+    "type": "tool",
+    "aliases": [
+      "route53",
+      "route 53"
+    ]
+  },
+  {
+    "skillId": "aws-cloudfront",
+    "skillName": "AWS CloudFront",
+    "type": "tool",
+    "aliases": [
+      "cloudfront"
+    ]
+  },
+  {
+    "skillId": "azure-app-service",
+    "skillName": "Azure App Service",
+    "type": "tool",
+    "aliases": [
+      "app service"
+    ]
+  },
+  {
+    "skillId": "azure-functions",
+    "skillName": "Azure Functions",
+    "type": "tool",
+    "aliases": [
+      "azure functions"
+    ]
+  },
+  {
+    "skillId": "azure-storage",
+    "skillName": "Azure Storage",
+    "type": "tool",
+    "aliases": [
+      "blob storage"
+    ]
+  },
+  {
+    "skillId": "azure-active-directory",
+    "skillName": "Azure Active Directory",
+    "type": "tool",
+    "aliases": [
+      "aad",
+      "entra id",
+      "entra"
+    ]
+  },
+  {
+    "skillId": "azure-devops",
+    "skillName": "Azure DevOps",
+    "type": "tool",
+    "aliases": [
+      "ado",
+      "azure pipelines"
+    ]
+  },
+  {
+    "skillId": "gcp-compute-engine",
+    "skillName": "GCP Compute Engine",
+    "type": "tool",
+    "aliases": [
+      "compute engine",
+      "gce"
+    ]
+  },
+  {
+    "skillId": "gcp-cloud-storage",
+    "skillName": "GCP Cloud Storage",
+    "type": "tool",
+    "aliases": [
+      "gcs",
+      "cloud storage"
+    ]
+  },
+  {
+    "skillId": "gcp-cloud-functions",
+    "skillName": "GCP Cloud Functions",
+    "type": "tool",
+    "aliases": [
+      "cloud functions"
+    ]
+  },
+  {
+    "skillId": "gcp-iam",
+    "skillName": "GCP IAM",
+    "type": "tool",
+    "aliases": [
+      "gcp iam",
+      "iam"
+    ]
+  },
+  {
+    "skillId": "terraform",
+    "skillName": "Terraform",
+    "type": "tool",
+    "aliases": [
+      "tf"
+    ]
+  },
+  {
+    "skillId": "ansible",
+    "skillName": "Ansible",
+    "type": "tool",
+    "aliases": [
+      "ansible"
+    ]
+  },
+  {
+    "skillId": "jenkins",
+    "skillName": "Jenkins",
+    "type": "tool",
+    "aliases": [
+      "jenkins"
+    ]
+  },
+  {
+    "skillId": "gitlab-ci",
+    "skillName": "GitLab CI",
+    "type": "tool",
+    "aliases": [
+      "gitlab ci",
+      "ci"
+    ]
+  },
+  {
+    "skillId": "github-actions",
+    "skillName": "GitHub Actions",
+    "type": "tool",
+    "aliases": [
+      "github actions",
+      "gha"
+    ]
+  },
+  {
+    "skillId": "circleci",
+    "skillName": "CircleCI",
+    "type": "tool",
+    "aliases": [
+      "circleci"
+    ]
+  },
+  {
+    "skillId": "travis-ci",
+    "skillName": "Travis CI",
+    "type": "tool",
+    "aliases": [
+      "travis"
+    ]
+  },
+  {
+    "skillId": "ci-cd-pipelines",
+    "skillName": "CI CD Pipelines",
+    "type": "concept",
+    "aliases": [
+      "pipelines",
+      "cicd"
+    ]
+  },
+  {
+    "skillId": "infrastructure-as-code",
+    "skillName": "Infrastructure As Code",
+    "type": "concept",
+    "aliases": [
+      "iac"
+    ]
+  },
+  {
+    "skillId": "configuration-management",
+    "skillName": "Configuration Management",
+    "type": "concept",
+    "aliases": [
+      "config mgmt"
+    ]
+  },
+  {
+    "skillId": "container-orchestration",
+    "skillName": "Container Orchestration",
+    "type": "concept",
+    "aliases": [
+      "orchestration"
+    ]
+  },
+  {
+    "skillId": "helm",
+    "skillName": "Helm",
+    "type": "tool",
+    "aliases": [
+      "helm charts"
+    ]
+  },
+  {
+    "skillId": "kustomize",
+    "skillName": "Kustomize",
+    "type": "tool",
+    "aliases": [
+      "kustomize"
+    ]
+  },
+  {
+    "skillId": "nginx",
+    "skillName": "Nginx",
+    "type": "tool",
+    "aliases": [
+      "nginx"
+    ]
+  },
+  {
+    "skillId": "apache-http-server",
+    "skillName": "Apache HTTP Server",
+    "type": "tool",
+    "aliases": [
+      "apache",
+      "httpd"
+    ]
+  },
+  {
+    "skillId": "reverse-proxy",
+    "skillName": "Reverse Proxy",
+    "type": "concept",
+    "aliases": [
+      "proxy"
+    ]
+  },
+  {
+    "skillId": "load-balancing",
+    "skillName": "Load Balancing",
+    "type": "concept",
+    "aliases": [
+      "load balancing"
+    ]
+  },
+  {
+    "skillId": "observability",
+    "skillName": "Observability",
+    "type": "concept",
+    "aliases": [
+      "o11y"
+    ]
+  },
+  {
+    "skillId": "monitoring",
+    "skillName": "Monitoring",
+    "type": "concept",
+    "aliases": [
+      "monitoring"
+    ]
+  },
+  {
+    "skillId": "logging",
+    "skillName": "Logging",
+    "type": "concept",
+    "aliases": [
+      "logs"
+    ]
+  },
+  {
+    "skillId": "metrics",
+    "skillName": "Metrics",
+    "type": "concept",
+    "aliases": [
+      "telemetry"
+    ]
+  },
+  {
+    "skillId": "distributed-tracing",
+    "skillName": "Distributed Tracing",
+    "type": "concept",
+    "aliases": [
+      "tracing"
+    ]
+  },
+  {
+    "skillId": "prometheus",
+    "skillName": "Prometheus",
+    "type": "tool",
+    "aliases": [
+      "prometheus"
+    ]
+  },
+  {
+    "skillId": "grafana",
+    "skillName": "Grafana",
+    "type": "tool",
+    "aliases": [
+      "grafana"
+    ]
+  },
+  {
+    "skillId": "elk-stack",
+    "skillName": "ELK Stack",
+    "type": "tool",
+    "aliases": [
+      "elk",
+      "elasticsearch logstash kibana"
+    ]
+  },
+  {
+    "skillId": "elasticsearch",
+    "skillName": "Elasticsearch",
+    "type": "tool",
+    "aliases": [
+      "es"
+    ]
+  },
+  {
+    "skillId": "logstash",
+    "skillName": "Logstash",
+    "type": "tool",
+    "aliases": [
+      "logstash"
+    ]
+  },
+  {
+    "skillId": "kibana",
+    "skillName": "Kibana",
+    "type": "tool",
+    "aliases": [
+      "kibana"
+    ]
+  },
+  {
+    "skillId": "splunk",
+    "skillName": "Splunk",
+    "type": "tool",
+    "aliases": [
+      "splunk"
+    ]
+  },
+  {
+    "skillId": "datadog",
+    "skillName": "Datadog",
+    "type": "tool",
+    "aliases": [
+      "datadog"
+    ]
+  },
+  {
+    "skillId": "new-relic",
+    "skillName": "New Relic",
+    "type": "tool",
+    "aliases": [
+      "newrelic"
+    ]
+  },
+  {
+    "skillId": "sre-basics",
+    "skillName": "SRE Basics",
+    "type": "domain",
+    "aliases": [
+      "site reliability engineering",
+      "sre"
+    ]
+  },
+  {
+    "skillId": "incident-management",
+    "skillName": "Incident Management",
+    "type": "concept",
+    "aliases": [
+      "incidents"
+    ]
+  },
+  {
+    "skillId": "on-call-operations",
+    "skillName": "On Call Operations",
+    "type": "domain",
+    "aliases": [
+      "oncall"
+    ]
+  },
+  {
+    "skillId": "root-cause-analysis",
+    "skillName": "Root Cause Analysis",
+    "type": "concept",
+    "aliases": [
+      "rca"
+    ]
+  },
+  {
+    "skillId": "postmortems",
+    "skillName": "Postmortems",
+    "type": "concept",
+    "aliases": [
+      "post mortem"
+    ]
+  },
+  {
+    "skillId": "performance-engineering",
+    "skillName": "Performance Engineering",
+    "type": "domain",
+    "aliases": [
+      "perf engineering"
+    ]
+  },
+  {
+    "skillId": "caching-strategies",
+    "skillName": "Caching Strategies",
+    "type": "concept",
+    "aliases": [
+      "caching"
+    ]
+  },
+  {
+    "skillId": "cdn-basics",
+    "skillName": "CDN Basics",
+    "type": "concept",
+    "aliases": [
+      "cdn"
+    ]
+  },
+  {
+    "skillId": "api-gateway-concepts",
+    "skillName": "API Gateway Concepts",
+    "type": "concept",
+    "aliases": [
+      "api gateway"
+    ]
+  },
+  {
+    "skillId": "microservices-architecture",
+    "skillName": "Microservices Architecture",
+    "type": "concept",
+    "aliases": [
+      "microservices"
+    ]
+  },
+  {
+    "skillId": "monolith-architecture",
+    "skillName": "Monolith Architecture",
+    "type": "concept",
+    "aliases": [
+      "monolith"
+    ]
+  },
+  {
+    "skillId": "event-driven-architecture",
+    "skillName": "Event Driven Architecture",
+    "type": "concept",
+    "aliases": [
+      "eda",
+      "event driven"
+    ]
+  },
+  {
+    "skillId": "message-queues",
+    "skillName": "Message Queues",
+    "type": "concept",
+    "aliases": [
+      "mq",
+      "queues"
+    ]
+  },
+  {
+    "skillId": "rabbitmq",
+    "skillName": "RabbitMQ",
+    "type": "tool",
+    "aliases": [
+      "rabbitmq"
+    ]
+  },
+  {
+    "skillId": "grpc",
+    "skillName": "gRPC",
+    "type": "concept",
+    "aliases": [
+      "grpc"
+    ]
+  },
+  {
+    "skillId": "protocol-buffers",
+    "skillName": "Protocol Buffers",
+    "type": "concept",
+    "aliases": [
+      "protobuf",
+      "proto"
+    ]
+  },
+  {
+    "skillId": "restful-design",
+    "skillName": "RESTful Design",
+    "type": "concept",
+    "aliases": [
+      "restful"
+    ]
+  },
+  {
+    "skillId": "api-versioning",
+    "skillName": "API Versioning",
+    "type": "concept",
+    "aliases": [
+      "versioning"
+    ]
+  },
+  {
+    "skillId": "rate-limiting",
+    "skillName": "Rate Limiting",
+    "type": "concept",
+    "aliases": [
+      "throttling"
+    ]
+  },
+  {
+    "skillId": "webhooks",
+    "skillName": "Webhooks",
+    "type": "concept",
+    "aliases": [
+      "webhook"
+    ]
+  },
+  {
+    "skillId": "backend-development",
+    "skillName": "Backend Development",
+    "type": "domain",
+    "aliases": [
+      "backend"
+    ]
+  },
+  {
+    "skillId": "frontend-development",
+    "skillName": "Frontend Development",
+    "type": "domain",
+    "aliases": [
+      "frontend"
+    ]
+  },
+  {
+    "skillId": "full-stack-development",
+    "skillName": "Full Stack Development",
+    "type": "domain",
+    "aliases": [
+      "fullstack",
+      "full stack"
+    ]
+  },
+  {
+    "skillId": "mobile-app-development",
+    "skillName": "Mobile App Development",
+    "type": "domain",
+    "aliases": [
+      "mobile development"
+    ]
+  },
+  {
+    "skillId": "react-native",
+    "skillName": "React Native",
+    "type": "framework",
+    "aliases": [
+      "react native"
+    ]
+  },
+  {
+    "skillId": "flutter",
+    "skillName": "Flutter",
+    "type": "framework",
+    "aliases": [
+      "flutter"
+    ]
+  },
+  {
+    "skillId": "android-development",
+    "skillName": "Android Development",
+    "type": "domain",
+    "aliases": [
+      "android"
+    ]
+  },
+  {
+    "skillId": "kotlin",
+    "skillName": "Kotlin",
+    "type": "language",
+    "aliases": [
+      "kt"
+    ]
+  },
+  {
+    "skillId": "swift",
+    "skillName": "Swift",
+    "type": "language",
+    "aliases": []
+  },
+  {
+    "skillId": "ios-development",
+    "skillName": "iOS Development",
+    "type": "domain",
+    "aliases": [
+      "ios"
+    ]
+  },
+  {
+    "skillId": "cross-platform-development",
+    "skillName": "Cross Platform Development",
+    "type": "domain",
+    "aliases": [
+      "cross platform"
+    ]
+  },
+  {
+    "skillId": "web-performance-optimization",
+    "skillName": "Web Performance Optimization",
+    "type": "concept",
+    "aliases": [
+      "web perf",
+      "performance"
+    ]
+  },
+  {
+    "skillId": "seo-basics",
+    "skillName": "SEO Basics",
+    "type": "domain",
+    "aliases": [
+      "seo",
+      "search engine optimization"
+    ]
+  },
+  {
+    "skillId": "web-analytics",
+    "skillName": "Web Analytics",
+    "type": "domain",
+    "aliases": [
+      "analytics"
+    ]
+  },
+  {
+    "skillId": "google-analytics",
+    "skillName": "Google Analytics",
+    "type": "tool",
+    "aliases": [
+      "ga",
+      "ga4"
+    ]
+  },
+  {
+    "skillId": "tag-management",
+    "skillName": "Tag Management",
+    "type": "concept",
+    "aliases": [
+      "gtm",
+      "google tag manager"
+    ]
+  },
+  {
+    "skillId": "a-b-testing",
+    "skillName": "A B Testing",
+    "type": "concept",
+    "aliases": [
+      "ab testing",
+      "a/b testing"
+    ]
+  },
+  {
+    "skillId": "product-analytics",
+    "skillName": "Product Analytics",
+    "type": "domain",
+    "aliases": [
+      "product analytics"
+    ]
+  },
+  {
+    "skillId": "mixpanel",
+    "skillName": "Mixpanel",
+    "type": "tool",
+    "aliases": [
+      "mixpanel"
+    ]
+  },
+  {
+    "skillId": "amplitude",
+    "skillName": "Amplitude",
+    "type": "tool",
+    "aliases": [
+      "amplitude"
+    ]
+  },
+  {
+    "skillId": "user-onboarding",
+    "skillName": "User Onboarding",
+    "type": "concept",
+    "aliases": [
+      "onboarding"
+    ]
+  },
+  {
+    "skillId": "product-management",
+    "skillName": "Product Management",
+    "type": "domain",
+    "aliases": [
+      "pm"
+    ]
+  },
+  {
+    "skillId": "product-requirements-doc",
+    "skillName": "Product Requirements Document",
+    "type": "concept",
+    "aliases": [
+      "prd"
+    ]
+  },
+  {
+    "skillId": "go-to-market",
+    "skillName": "Go To Market",
+    "type": "domain",
+    "aliases": [
+      "gtm"
+    ]
+  },
+  {
+    "skillId": "market-research",
+    "skillName": "Market Research",
+    "type": "domain",
+    "aliases": [
+      "market research"
+    ]
+  },
+  {
+    "skillId": "competitive-analysis",
+    "skillName": "Competitive Analysis",
+    "type": "concept",
+    "aliases": [
+      "competitor analysis"
+    ]
+  },
+  {
+    "skillId": "pricing-strategy",
+    "skillName": "Pricing Strategy",
+    "type": "domain",
+    "aliases": [
+      "pricing"
+    ]
+  },
+  {
+    "skillId": "sales-fundamentals",
+    "skillName": "Sales Fundamentals",
+    "type": "domain",
+    "aliases": [
+      "sales"
+    ]
+  },
+  {
+    "skillId": "crm-basics",
+    "skillName": "CRM Basics",
+    "type": "domain",
+    "aliases": [
+      "crm"
+    ]
+  },
+  {
+    "skillId": "salesforce",
+    "skillName": "Salesforce",
+    "type": "tool",
+    "aliases": [
+      "salesforce"
+    ]
+  },
+  {
+    "skillId": "hubspot",
+    "skillName": "HubSpot",
+    "type": "tool",
+    "aliases": [
+      "hubspot"
+    ]
+  },
+  {
+    "skillId": "digital-marketing",
+    "skillName": "Digital Marketing",
+    "type": "domain",
+    "aliases": [
+      "digital marketing"
+    ]
+  },
+  {
+    "skillId": "content-marketing",
+    "skillName": "Content Marketing",
+    "type": "domain",
+    "aliases": [
+      "content marketing"
+    ]
+  },
+  {
+    "skillId": "copywriting",
+    "skillName": "Copywriting",
+    "type": "soft-skill",
+    "aliases": [
+      "copywriting"
+    ]
+  },
+  {
+    "skillId": "social-media-marketing",
+    "skillName": "Social Media Marketing",
+    "type": "domain",
+    "aliases": [
+      "smm",
+      "social marketing"
+    ]
+  },
+  {
+    "skillId": "email-marketing",
+    "skillName": "Email Marketing",
+    "type": "domain",
+    "aliases": [
+      "email marketing"
+    ]
+  },
+  {
+    "skillId": "marketing-automation",
+    "skillName": "Marketing Automation",
+    "type": "domain",
+    "aliases": [
+      "automation"
+    ]
+  },
+  {
+    "skillId": "google-ads",
+    "skillName": "Google Ads",
+    "type": "tool",
+    "aliases": [
+      "google ads",
+      "adwords"
+    ]
+  },
+  {
+    "skillId": "meta-ads",
+    "skillName": "Meta Ads",
+    "type": "tool",
+    "aliases": [
+      "facebook ads",
+      "fb ads"
+    ]
+  },
+  {
+    "skillId": "linkedin-ads",
+    "skillName": "LinkedIn Ads",
+    "type": "tool",
+    "aliases": [
+      "linkedin ads"
+    ]
+  },
+  {
+    "skillId": "canva",
+    "skillName": "Canva",
+    "type": "tool",
+    "aliases": [
+      "canva"
+    ]
+  },
+  {
+    "skillId": "adobe-photoshop",
+    "skillName": "Adobe Photoshop",
+    "type": "tool",
+    "aliases": [
+      "photoshop",
+      "ps"
+    ]
+  },
+  {
+    "skillId": "adobe-illustrator",
+    "skillName": "Adobe Illustrator",
+    "type": "tool",
+    "aliases": [
+      "illustrator",
+      "ai"
+    ]
+  },
+  {
+    "skillId": "adobe-premiere-pro",
+    "skillName": "Adobe Premiere Pro",
+    "type": "tool",
+    "aliases": [
+      "premiere",
+      "premiere pro"
+    ]
+  },
+  {
+    "skillId": "adobe-after-effects",
+    "skillName": "Adobe After Effects",
+    "type": "tool",
+    "aliases": [
+      "after effects",
+      "ae"
+    ]
+  },
+  {
+    "skillId": "video-editing",
+    "skillName": "Video Editing",
+    "type": "domain",
+    "aliases": [
+      "video editing"
+    ]
+  },
+  {
+    "skillId": "graphic-design",
+    "skillName": "Graphic Design",
+    "type": "domain",
+    "aliases": [
+      "graphics design"
+    ]
+  },
+  {
+    "skillId": "brand-design",
+    "skillName": "Brand Design",
+    "type": "domain",
+    "aliases": [
+      "branding design"
+    ]
+  },
+  {
+    "skillId": "motion-graphics",
+    "skillName": "Motion Graphics",
+    "type": "domain",
+    "aliases": [
+      "motion design"
+    ]
+  },
+  {
+    "skillId": "ux-design",
+    "skillName": "UX Design",
+    "type": "domain",
+    "aliases": [
+      "ux"
+    ]
+  },
+  {
+    "skillId": "ui-design",
+    "skillName": "UI Design",
+    "type": "domain",
+    "aliases": [
+      "ui"
+    ]
+  },
+  {
+    "skillId": "design-systems",
+    "skillName": "Design Systems",
+    "type": "concept",
+    "aliases": [
+      "design system"
+    ]
+  },
+  {
+    "skillId": "usability-testing",
+    "skillName": "Usability Testing",
+    "type": "concept",
+    "aliases": [
+      "usability tests"
+    ]
+  },
+  {
+    "skillId": "information-architecture",
+    "skillName": "Information Architecture",
+    "type": "concept",
+    "aliases": [
+      "ia"
+    ]
+  },
+  {
+    "skillId": "interaction-design",
+    "skillName": "Interaction Design",
+    "type": "domain",
+    "aliases": [
+      "ixd"
+    ]
+  },
+  {
+    "skillId": "accessibility-design",
+    "skillName": "Accessibility Design",
+    "type": "concept",
+    "aliases": [
+      "a11y design"
+    ]
+  },
+  {
+    "skillId": "cybersecurity-basics",
+    "skillName": "Cybersecurity Basics",
+    "type": "domain",
+    "aliases": [
+      "cybersecurity",
+      "infosec"
+    ]
+  },
+  {
+    "skillId": "network-security",
+    "skillName": "Network Security",
+    "type": "domain",
+    "aliases": [
+      "netsec"
+    ]
+  },
+  {
+    "skillId": "application-security",
+    "skillName": "Application Security",
+    "type": "domain",
+    "aliases": [
+      "appsec"
+    ]
+  },
+  {
+    "skillId": "security-best-practices",
+    "skillName": "Security Best Practices",
+    "type": "concept",
+    "aliases": [
+      "security practices"
+    ]
+  },
+  {
+    "skillId": "threat-modeling",
+    "skillName": "Threat Modeling",
+    "type": "concept",
+    "aliases": [
+      "threat modelling"
+    ]
+  },
+  {
+    "skillId": "vulnerability-assessment",
+    "skillName": "Vulnerability Assessment",
+    "type": "domain",
+    "aliases": [
+      "va"
+    ]
+  },
+  {
+    "skillId": "penetration-testing",
+    "skillName": "Penetration Testing",
+    "type": "domain",
+    "aliases": [
+      "pentest",
+      "pt"
+    ]
+  },
+  {
+    "skillId": "owasp-top-10",
+    "skillName": "OWASP Top 10",
+    "type": "concept",
+    "aliases": [
+      "owasp"
+    ]
+  },
+  {
+    "skillId": "security-logging-monitoring",
+    "skillName": "Security Logging Monitoring",
+    "type": "concept",
+    "aliases": [
+      "siem basics"
+    ]
+  },
+  {
+    "skillId": "siem-basics",
+    "skillName": "SIEM Basics",
+    "type": "domain",
+    "aliases": [
+      "siem"
+    ]
+  },
+  {
+    "skillId": "splunk-security",
+    "skillName": "Splunk Security",
+    "type": "tool",
+    "aliases": [
+      "splunk es"
+    ]
+  },
+  {
+    "skillId": "cloud-security-basics",
+    "skillName": "Cloud Security Basics",
+    "type": "domain",
+    "aliases": [
+      "cloud security"
+    ]
+  },
+  {
+    "skillId": "identity-and-access-management",
+    "skillName": "Identity And Access Management",
+    "type": "domain",
+    "aliases": [
+      "iam"
+    ]
+  },
+  {
+    "skillId": "zero-trust-basics",
+    "skillName": "Zero Trust Basics",
+    "type": "concept",
+    "aliases": [
+      "zero trust"
+    ]
+  },
+  {
+    "skillId": "encryption-at-rest",
+    "skillName": "Encryption At Rest",
+    "type": "concept",
+    "aliases": [
+      "at rest encryption"
+    ]
+  },
+  {
+    "skillId": "encryption-in-transit",
+    "skillName": "Encryption In Transit",
+    "type": "concept",
+    "aliases": [
+      "in transit encryption"
+    ]
+  },
+  {
+    "skillId": "secrets-management",
+    "skillName": "Secrets Management",
+    "type": "concept",
+    "aliases": [
+      "secrets"
+    ]
+  },
+  {
+    "skillId": "hashicorp-vault",
+    "skillName": "HashiCorp Vault",
+    "type": "tool",
+    "aliases": [
+      "vault"
+    ]
+  },
+  {
+    "skillId": "key-management-service",
+    "skillName": "Key Management Service",
+    "type": "concept",
+    "aliases": [
+      "kms"
+    ]
+  },
+  {
+    "skillId": "devsecops",
+    "skillName": "DevSecOps",
+    "type": "domain",
+    "aliases": [
+      "devsecops"
+    ]
+  },
+  {
+    "skillId": "secure-coding",
+    "skillName": "Secure Coding",
+    "type": "concept",
+    "aliases": [
+      "secure coding"
+    ]
+  },
+  {
+    "skillId": "static-application-security-testing",
+    "skillName": "Static Application Security Testing",
+    "type": "concept",
+    "aliases": [
+      "sast"
+    ]
+  },
+  {
+    "skillId": "dynamic-application-security-testing",
+    "skillName": "Dynamic Application Security Testing",
+    "type": "concept",
+    "aliases": [
+      "dast"
+    ]
+  },
+  {
+    "skillId": "dependency-scanning",
+    "skillName": "Dependency Scanning",
+    "type": "concept",
+    "aliases": [
+      "sca",
+      "software composition analysis"
+    ]
+  },
+  {
+    "skillId": "software-supply-chain-security",
+    "skillName": "Software Supply Chain Security",
+    "type": "domain",
+    "aliases": [
+      "supply chain security"
+    ]
+  },
+  {
+    "skillId": "linux-hardening",
+    "skillName": "Linux Hardening",
+    "type": "concept",
+    "aliases": [
+      "hardening"
+    ]
+  },
+  {
+    "skillId": "firewalls-basics",
+    "skillName": "Firewalls Basics",
+    "type": "concept",
+    "aliases": [
+      "firewall"
+    ]
+  },
+  {
+    "skillId": "ids-ips-basics",
+    "skillName": "IDS IPS Basics",
+    "type": "concept",
+    "aliases": [
+      "ids",
+      "ips"
+    ]
+  },
+  {
+    "skillId": "wireshark",
+    "skillName": "Wireshark",
+    "type": "tool",
+    "aliases": [
+      "wireshark"
+    ]
+  },
+  {
+    "skillId": "nmap",
+    "skillName": "Nmap",
+    "type": "tool",
+    "aliases": [
+      "nmap"
+    ]
+  },
+  {
+    "skillId": "burp-suite",
+    "skillName": "Burp Suite",
+    "type": "tool",
+    "aliases": [
+      "burp",
+      "burpsuite"
+    ]
+  },
+  {
+    "skillId": "metasploit",
+    "skillName": "Metasploit",
+    "type": "tool",
+    "aliases": [
+      "msf",
+      "metasploit"
+    ]
+  },
+  {
+    "skillId": "linux-privilege-escalation-basics",
+    "skillName": "Linux Privilege Escalation Basics",
+    "type": "concept",
+    "aliases": [
+      "privesc"
+    ]
+  },
+  {
+    "skillId": "web-application-testing",
+    "skillName": "Web Application Testing",
+    "type": "domain",
+    "aliases": [
+      "web pentest"
+    ]
+  },
+  {
+    "skillId": "secure-authentication",
+    "skillName": "Secure Authentication",
+    "type": "concept",
+    "aliases": [
+      "auth security"
+    ]
+  },
+  {
+    "skillId": "risk-management",
+    "skillName": "Risk Management",
+    "type": "domain",
+    "aliases": [
+      "risk mgmt"
+    ]
+  },
+  {
+    "skillId": "compliance-basics",
+    "skillName": "Compliance Basics",
+    "type": "domain",
+    "aliases": [
+      "compliance"
+    ]
+  },
+  {
+    "skillId": "iso-27001-basics",
+    "skillName": "ISO 27001 Basics",
+    "type": "domain",
+    "aliases": [
+      "iso27001"
+    ]
+  },
+  {
+    "skillId": "gdpr-basics",
+    "skillName": "GDPR Basics",
+    "type": "domain",
+    "aliases": [
+      "gdpr"
+    ]
+  },
+  {
+    "skillId": "data-governance",
+    "skillName": "Data Governance",
+    "type": "domain",
+    "aliases": [
+      "governance"
+    ]
+  },
+  {
+    "skillId": "data-quality-management",
+    "skillName": "Data Quality Management",
+    "type": "domain",
+    "aliases": [
+      "data quality"
+    ]
+  },
+  {
+    "skillId": "master-data-management",
+    "skillName": "Master Data Management",
+    "type": "domain",
+    "aliases": [
+      "mdm"
+    ]
+  },
+  {
+    "skillId": "data-lineage",
+    "skillName": "Data Lineage",
+    "type": "concept",
+    "aliases": [
+      "lineage"
+    ]
+  },
+  {
+    "skillId": "data-catalogs",
+    "skillName": "Data Catalogs",
+    "type": "domain",
+    "aliases": [
+      "data catalog"
+    ]
+  },
+  {
+    "skillId": "collibra",
+    "skillName": "Collibra",
+    "type": "tool",
+    "aliases": [
+      "collibra"
+    ]
+  },
+  {
+    "skillId": "alation",
+    "skillName": "Alation",
+    "type": "tool",
+    "aliases": [
+      "alation"
+    ]
+  },
+  {
+    "skillId": "modern-data-stack",
+    "skillName": "Modern Data Stack",
+    "type": "concept",
+    "aliases": [
+      "mds"
+    ]
+  },
+  {
+    "skillId": "mlops-basics",
+    "skillName": "MLOps Basics",
+    "type": "domain",
+    "aliases": [
+      "mlops"
+    ]
+  },
+  {
+    "skillId": "model-deployment",
+    "skillName": "Model Deployment",
+    "type": "concept",
+    "aliases": [
+      "deploying models"
+    ]
+  },
+  {
+    "skillId": "model-monitoring",
+    "skillName": "Model Monitoring",
+    "type": "concept",
+    "aliases": [
+      "ml monitoring"
+    ]
+  },
+  {
+    "skillId": "feature-engineering",
+    "skillName": "Feature Engineering",
+    "type": "concept",
+    "aliases": [
+      "feature eng"
+    ]
+  },
+  {
+    "skillId": "hyperparameter-tuning",
+    "skillName": "Hyperparameter Tuning",
+    "type": "concept",
+    "aliases": [
+      "hpo",
+      "tuning"
+    ]
+  },
+  {
+    "skillId": "cross-validation",
+    "skillName": "Cross Validation",
+    "type": "concept",
+    "aliases": [
+      "cv",
+      "cross validation"
+    ]
+  },
+  {
+    "skillId": "model-evaluation",
+    "skillName": "Model Evaluation",
+    "type": "concept",
+    "aliases": [
+      "evaluation"
+    ]
+  },
+  {
+    "skillId": "ml-pipelines",
+    "skillName": "ML Pipelines",
+    "type": "concept",
+    "aliases": [
+      "pipelines"
+    ]
+  },
+  {
+    "skillId": "mlflow",
+    "skillName": "MLflow",
+    "type": "tool",
+    "aliases": [
+      "mlflow"
+    ]
+  },
+  {
+    "skillId": "kubeflow",
+    "skillName": "Kubeflow",
+    "type": "tool",
+    "aliases": [
+      "kubeflow"
+    ]
+  },
+  {
+    "skillId": "dvc",
+    "skillName": "DVC",
+    "type": "tool",
+    "aliases": [
+      "dvc",
+      "data version control"
+    ]
+  },
+  {
+    "skillId": "weights-and-biases",
+    "skillName": "Weights And Biases",
+    "type": "tool",
+    "aliases": [
+      "wandb",
+      "w&b"
+    ]
+  },
+  {
+    "skillId": "pytorch",
+    "skillName": "PyTorch",
+    "type": "framework",
+    "aliases": [
+      "torch"
+    ]
+  },
+  {
+    "skillId": "tensorflow",
+    "skillName": "TensorFlow",
+    "type": "framework",
+    "aliases": [
+      "tf",
+      "tensorflow"
+    ]
+  },
+  {
+    "skillId": "keras",
+    "skillName": "Keras",
+    "type": "framework",
+    "aliases": [
+      "keras"
+    ]
+  },
+  {
+    "skillId": "deep-learning-basics",
+    "skillName": "Deep Learning Basics",
+    "type": "concept",
+    "aliases": [
+      "dl",
+      "deep learning"
+    ]
+  },
+  {
+    "skillId": "neural-networks",
+    "skillName": "Neural Networks",
+    "type": "concept",
+    "aliases": [
+      "nn",
+      "neural nets"
+    ]
+  },
+  {
+    "skillId": "cnn",
+    "skillName": "Convolutional Neural Networks",
+    "type": "concept",
+    "aliases": [
+      "cnn",
+      "convnet"
+    ]
+  },
+  {
+    "skillId": "rnn",
+    "skillName": "Recurrent Neural Networks",
+    "type": "concept",
+    "aliases": [
+      "rnn"
+    ]
+  },
+  {
+    "skillId": "nlp-basics",
+    "skillName": "Natural Language Processing Basics",
+    "type": "domain",
+    "aliases": [
+      "nlp"
+    ]
+  },
+  {
+    "skillId": "computer-vision-basics",
+    "skillName": "Computer Vision Basics",
+    "type": "domain",
+    "aliases": [
+      "cv",
+      "computer vision"
+    ]
+  },
+  {
+    "skillId": "transformers-basics",
+    "skillName": "Transformers Basics",
+    "type": "concept",
+    "aliases": [
+      "transformers"
+    ]
+  },
+  {
+    "skillId": "llm-basics",
+    "skillName": "Large Language Models Basics",
+    "type": "concept",
+    "aliases": [
+      "llm",
+      "llms"
+    ]
+  },
+  {
+    "skillId": "prompt-engineering-basics",
+    "skillName": "Prompt Engineering Basics",
+    "type": "concept",
+    "aliases": [
+      "prompting",
+      "prompt engineering"
+    ]
+  },
+  {
+    "skillId": "generative-ai-basics",
+    "skillName": "Generative AI Basics",
+    "type": "concept",
+    "aliases": [
+      "genai",
+      "generative ai"
+    ]
+  },
+  {
+    "skillId": "rag-basics",
+    "skillName": "Retrieval Augmented Generation Basics",
+    "type": "concept",
+    "aliases": [
+      "rag",
+      "retrieval augmented generation"
+    ]
+  },
+  {
+    "skillId": "vector-databases",
+    "skillName": "Vector Databases",
+    "type": "domain",
+    "aliases": [
+      "vector db"
+    ]
+  },
+  {
+    "skillId": "pinecone",
+    "skillName": "Pinecone",
+    "type": "tool",
+    "aliases": [
+      "pinecone"
+    ]
+  },
+  {
+    "skillId": "weaviate",
+    "skillName": "Weaviate",
+    "type": "tool",
+    "aliases": [
+      "weaviate"
+    ]
+  },
+  {
+    "skillId": "milvus",
+    "skillName": "Milvus",
+    "type": "tool",
+    "aliases": [
+      "milvus"
+    ]
+  },
+  {
+    "skillId": "chromadb",
+    "skillName": "ChromaDB",
+    "type": "tool",
+    "aliases": [
+      "chroma",
+      "chromadb"
+    ]
+  },
+  {
+    "skillId": "faiss",
+    "skillName": "FAISS",
+    "type": "tool",
+    "aliases": [
+      "faiss"
+    ]
+  },
+  {
+    "skillId": "python-web-scraping",
+    "skillName": "Python Web Scraping",
+    "type": "concept",
+    "aliases": [
+      "web scraping",
+      "scraping"
+    ]
+  },
+  {
+    "skillId": "beautifulsoup",
+    "skillName": "BeautifulSoup",
+    "type": "tool",
+    "aliases": [
+      "bs4",
+      "beautiful soup"
+    ]
+  },
+  {
+    "skillId": "scrapy",
+    "skillName": "Scrapy",
+    "type": "tool",
+    "aliases": [
+      "scrapy"
+    ]
+  },
+  {
+    "skillId": "requests-python",
+    "skillName": "Python Requests",
+    "type": "tool",
+    "aliases": [
+      "requests"
+    ]
+  },
+  {
+    "skillId": "opencv",
+    "skillName": "OpenCV",
+    "type": "tool",
+    "aliases": [
+      "opencv"
+    ]
+  },
+  {
+    "skillId": "pillow",
+    "skillName": "Pillow",
+    "type": "tool",
+    "aliases": [
+      "pil",
+      "pillow"
+    ]
+  },
+  {
+    "skillId": "sqlalchemy",
+    "skillName": "SQLAlchemy",
+    "type": "framework",
+    "aliases": [
+      "sqlalchemy"
+    ]
+  },
+  {
+    "skillId": "sequelize",
+    "skillName": "Sequelize",
+    "type": "framework",
+    "aliases": [
+      "sequelize"
+    ]
+  },
+  {
+    "skillId": "prisma",
+    "skillName": "Prisma",
+    "type": "tool",
+    "aliases": [
+      "prisma"
+    ]
+  },
+  {
+    "skillId": "typeorm",
+    "skillName": "TypeORM",
+    "type": "tool",
+    "aliases": [
+      "typeorm"
+    ]
+  },
+  {
+    "skillId": "nestjs",
+    "skillName": "NestJS",
+    "type": "framework",
+    "aliases": [
+      "nest",
+      "nestjs"
+    ]
+  },
+  {
+    "skillId": "graphql-apollo",
+    "skillName": "Apollo GraphQL",
+    "type": "framework",
+    "aliases": [
+      "apollo",
+      "apollo graphql"
+    ]
+  },
+  {
+    "skillId": "svelte",
+    "skillName": "Svelte",
+    "type": "framework",
+    "aliases": [
+      "svelte"
+    ]
+  },
+  {
+    "skillId": "vue-js",
+    "skillName": "Vue.js",
+    "type": "framework",
+    "aliases": [
+      "vue",
+      "vuejs"
+    ]
+  },
+  {
+    "skillId": "angular",
+    "skillName": "Angular",
+    "type": "framework",
+    "aliases": [
+      "angular"
+    ]
+  },
+  {
+    "skillId": "nuxt-js",
+    "skillName": "Nuxt.js",
+    "type": "framework",
+    "aliases": [
+      "nuxt",
+      "nuxtjs"
+    ]
+  },
+  {
+    "skillId": "sveltekit",
+    "skillName": "SvelteKit",
+    "type": "framework",
+    "aliases": [
+      "sveltekit"
+    ]
+  },
+  {
+    "skillId": "remix",
+    "skillName": "Remix",
+    "type": "framework",
+    "aliases": [
+      "remix"
+    ]
+  },
+  {
+    "skillId": "solid-js",
+    "skillName": "SolidJS",
+    "type": "framework",
+    "aliases": [
+      "solid",
+      "solidjs"
+    ]
+  },
+  {
+    "skillId": "astro",
+    "skillName": "Astro",
+    "type": "framework",
+    "aliases": [
+      "astro"
+    ]
+  },
+  {
+    "skillId": "storybook",
+    "skillName": "Storybook",
+    "type": "tool",
+    "aliases": [
+      "storybook"
+    ]
+  },
+  {
+    "skillId": "cypress",
+    "skillName": "Cypress",
+    "type": "tool",
+    "aliases": [
+      "cypress"
+    ]
+  },
+  {
+    "skillId": "playwright",
+    "skillName": "Playwright",
+    "type": "tool",
+    "aliases": [
+      "playwright"
+    ]
+  },
+  {
+    "skillId": "api-security",
+    "skillName": "API Security",
+    "type": "domain",
+    "aliases": [
+      "api security"
+    ]
+  },
+  {
+    "skillId": "web-application-firewalls",
+    "skillName": "Web Application Firewalls",
+    "type": "domain",
+    "aliases": [
+      "waf"
+    ]
+  },
+  {
+    "skillId": "cloudflare",
+    "skillName": "Cloudflare",
+    "type": "tool",
+    "aliases": [
+      "cloudflare"
+    ]
+  },
+  {
+    "skillId": "akamai-basics",
+    "skillName": "Akamai Basics",
+    "type": "tool",
+    "aliases": [
+      "akamai"
+    ]
+  },
+  {
+    "skillId": "edge-computing-basics",
+    "skillName": "Edge Computing Basics",
+    "type": "concept",
+    "aliases": [
+      "edge computing"
+    ]
+  },
+  {
+    "skillId": "serverless-architecture",
+    "skillName": "Serverless Architecture",
+    "type": "concept",
+    "aliases": [
+      "serverless"
+    ]
+  },
+  {
+    "skillId": "eventbridge",
+    "skillName": "AWS EventBridge",
+    "type": "tool",
+    "aliases": [
+      "eventbridge"
+    ]
+  },
+  {
+    "skillId": "step-functions",
+    "skillName": "AWS Step Functions",
+    "type": "tool",
+    "aliases": [
+      "step functions"
+    ]
+  },
+  {
+    "skillId": "api-observability",
+    "skillName": "API Observability",
+    "type": "concept",
+    "aliases": [
+      "api monitoring"
+    ]
+  },
+  {
+    "skillId": "documentation-apis-openapi",
+    "skillName": "OpenAPI Specification",
+    "type": "concept",
+    "aliases": [
+      "openapi spec",
+      "oas"
+    ]
+  },
+  {
+    "skillId": "software-architecture-basics",
+    "skillName": "Software Architecture Basics",
+    "type": "concept",
+    "aliases": [
+      "architecture"
+    ]
+  },
+  {
+    "skillId": "clean-architecture",
+    "skillName": "Clean Architecture",
+    "type": "concept",
+    "aliases": [
+      "clean architecture"
+    ]
+  },
+  {
+    "skillId": "clean-code",
+    "skillName": "Clean Code",
+    "type": "concept",
+    "aliases": [
+      "clean code"
+    ]
+  },
+  {
+    "skillId": "refactoring",
+    "skillName": "Refactoring",
+    "type": "concept",
+    "aliases": [
+      "refactor"
+    ]
+  },
+  {
+    "skillId": "code-quality",
+    "skillName": "Code Quality",
+    "type": "concept",
+    "aliases": [
+      "quality"
+    ]
+  },
+  {
+    "skillId": "static-code-analysis",
+    "skillName": "Static Code Analysis",
+    "type": "concept",
+    "aliases": [
+      "static analysis"
+    ]
+  },
+  {
+    "skillId": "sonarqube",
+    "skillName": "SonarQube",
+    "type": "tool",
+    "aliases": [
+      "sonarqube",
+      "sonar"
+    ]
+  },
+  {
+    "skillId": "secure-software-development",
+    "skillName": "Secure Software Development",
+    "type": "concept",
+    "aliases": [
+      "ssd",
+      "secure sdlc"
+    ]
+  },
+  {
+    "skillId": "threat-intelligence-basics",
+    "skillName": "Threat Intelligence Basics",
+    "type": "domain",
+    "aliases": [
+      "threat intel"
+    ]
+  },
+  {
+    "skillId": "security-operations-basics",
+    "skillName": "Security Operations Basics",
+    "type": "domain",
+    "aliases": [
+      "soc",
+      "secops"
+    ]
+  },
+  {
+    "skillId": "incident-response-basics",
+    "skillName": "Incident Response Basics",
+    "type": "domain",
+    "aliases": [
+      "ir",
+      "incident response"
+    ]
+  },
+  {
+    "skillId": "malware-analysis-basics",
+    "skillName": "Malware Analysis Basics",
+    "type": "concept",
+    "aliases": [
+      "malware analysis"
+    ]
+  },
+  {
+    "skillId": "digital-forensics-basics",
+    "skillName": "Digital Forensics Basics",
+    "type": "domain",
+    "aliases": [
+      "dfir",
+      "forensics"
+    ]
+  },
+  {
+    "skillId": "business-fundamentals",
+    "skillName": "Business Fundamentals",
+    "type": "domain",
+    "aliases": [
+      "business basics"
+    ]
+  },
+  {
+    "skillId": "accounting-basics",
+    "skillName": "Accounting Basics",
+    "type": "domain",
+    "aliases": [
+      "accounting"
+    ]
+  },
+  {
+    "skillId": "financial-accounting",
+    "skillName": "Financial Accounting",
+    "type": "domain",
+    "aliases": [
+      "fin accounting"
+    ]
+  },
+  {
+    "skillId": "managerial-accounting",
+    "skillName": "Managerial Accounting",
+    "type": "domain",
+    "aliases": [
+      "management accounting"
+    ]
+  },
+  {
+    "skillId": "corporate-finance",
+    "skillName": "Corporate Finance",
+    "type": "domain",
+    "aliases": [
+      "corp finance"
+    ]
+  },
+  {
+    "skillId": "financial-modeling",
+    "skillName": "Financial Modeling",
+    "type": "domain",
+    "aliases": [
+      "fin modeling"
+    ]
+  },
+  {
+    "skillId": "valuation-basics",
+    "skillName": "Valuation Basics",
+    "type": "domain",
+    "aliases": [
+      "valuation"
+    ]
+  },
+  {
+    "skillId": "investment-basics",
+    "skillName": "Investment Basics",
+    "type": "domain",
+    "aliases": [
+      "investing"
+    ]
+  },
+  {
+    "skillId": "equity-research-basics",
+    "skillName": "Equity Research Basics",
+    "type": "domain",
+    "aliases": [
+      "equity research"
+    ]
+  },
+  {
+    "skillId": "portfolio-management-basics",
+    "skillName": "Portfolio Management Basics",
+    "type": "domain",
+    "aliases": [
+      "portfolio mgmt"
+    ]
+  },
+  {
+    "skillId": "risk-analysis",
+    "skillName": "Risk Analysis",
+    "type": "domain",
+    "aliases": [
+      "risk analysis"
+    ]
+  },
+  {
+    "skillId": "budgeting",
+    "skillName": "Budgeting",
+    "type": "domain",
+    "aliases": [
+      "budgeting"
+    ]
+  },
+  {
+    "skillId": "cost-accounting",
+    "skillName": "Cost Accounting",
+    "type": "domain",
+    "aliases": [
+      "costing"
+    ]
+  },
+  {
+    "skillId": "supply-chain-basics",
+    "skillName": "Supply Chain Basics",
+    "type": "domain",
+    "aliases": [
+      "supply chain"
+    ]
+  },
+  {
+    "skillId": "operations-management",
+    "skillName": "Operations Management",
+    "type": "domain",
+    "aliases": [
+      "ops mgmt"
+    ]
+  },
+  {
+    "skillId": "inventory-management",
+    "skillName": "Inventory Management",
+    "type": "domain",
+    "aliases": [
+      "inventory"
+    ]
+  },
+  {
+    "skillId": "procurement-basics",
+    "skillName": "Procurement Basics",
+    "type": "domain",
+    "aliases": [
+      "procurement"
+    ]
+  },
+  {
+    "skillId": "logistics-basics",
+    "skillName": "Logistics Basics",
+    "type": "domain",
+    "aliases": [
+      "logistics"
+    ]
+  },
+  {
+    "skillId": "quality-management-basics",
+    "skillName": "Quality Management Basics",
+    "type": "domain",
+    "aliases": [
+      "quality mgmt",
+      "tqm"
+    ]
+  },
+  {
+    "skillId": "six-sigma-basics",
+    "skillName": "Six Sigma Basics",
+    "type": "domain",
+    "aliases": [
+      "six sigma"
+    ]
+  },
+  {
+    "skillId": "lean-basics",
+    "skillName": "Lean Basics",
+    "type": "domain",
+    "aliases": [
+      "lean"
+    ]
+  },
+  {
+    "skillId": "business-process-mapping",
+    "skillName": "Business Process Mapping",
+    "type": "concept",
+    "aliases": [
+      "process mapping"
+    ]
+  },
+  {
+    "skillId": "kpi-design",
+    "skillName": "KPI Design",
+    "type": "concept",
+    "aliases": [
+      "kpis",
+      "metrics"
+    ]
+  },
+  {
+    "skillId": "stakeholder-management",
+    "skillName": "Stakeholder Management",
+    "type": "soft-skill",
+    "aliases": [
+      "stakeholders"
+    ]
+  },
+  {
+    "skillId": "business-communication",
+    "skillName": "Business Communication",
+    "type": "soft-skill",
+    "aliases": [
+      "business comms"
+    ]
+  },
+  {
+    "skillId": "customer-support-basics",
+    "skillName": "Customer Support Basics",
+    "type": "domain",
+    "aliases": [
+      "customer support"
+    ]
+  },
+  {
+    "skillId": "customer-success-basics",
+    "skillName": "Customer Success Basics",
+    "type": "domain",
+    "aliases": [
+      "cs",
+      "customer success"
+    ]
+  },
+  {
+    "skillId": "sales-operations-basics",
+    "skillName": "Sales Operations Basics",
+    "type": "domain",
+    "aliases": [
+      "sales ops"
+    ]
+  },
+  {
+    "skillId": "marketing-strategy",
+    "skillName": "Marketing Strategy",
+    "type": "domain",
+    "aliases": [
+      "marketing strategy"
+    ]
+  },
+  {
+    "skillId": "branding-basics",
+    "skillName": "Branding Basics",
+    "type": "domain",
+    "aliases": [
+      "branding"
+    ]
+  },
+  {
+    "skillId": "seo-keyword-research",
+    "skillName": "SEO Keyword Research",
+    "type": "concept",
+    "aliases": [
+      "keyword research"
+    ]
+  },
+  {
+    "skillId": "content-strategy",
+    "skillName": "Content Strategy",
+    "type": "domain",
+    "aliases": [
+      "content strategy"
+    ]
+  },
+  {
+    "skillId": "storytelling",
+    "skillName": "Storytelling",
+    "type": "soft-skill",
+    "aliases": [
+      "storytelling"
+    ]
+  },
+  {
+    "skillId": "community-management",
+    "skillName": "Community Management",
+    "type": "domain",
+    "aliases": [
+      "community"
+    ]
+  },
+  {
+    "skillId": "pr-basics",
+    "skillName": "Public Relations Basics",
+    "type": "domain",
+    "aliases": [
+      "pr",
+      "public relations"
+    ]
+  },
+  {
+    "skillId": "event-marketing",
+    "skillName": "Event Marketing",
+    "type": "domain",
+    "aliases": [
+      "events marketing"
+    ]
+  },
+  {
+    "skillId": "ecommerce-basics",
+    "skillName": "Ecommerce Basics",
+    "type": "domain",
+    "aliases": [
+      "e-commerce",
+      "ecommerce"
+    ]
+  },
+  {
+    "skillId": "shopify",
+    "skillName": "Shopify",
+    "type": "tool",
+    "aliases": [
+      "shopify"
+    ]
+  },
+  {
+    "skillId": "woocommerce",
+    "skillName": "WooCommerce",
+    "type": "tool",
+    "aliases": [
+      "woocommerce"
+    ]
+  },
+  {
+    "skillId": "wordpress",
+    "skillName": "WordPress",
+    "type": "tool",
+    "aliases": [
+      "wp",
+      "wordpress"
+    ]
+  },
+  {
+    "skillId": "cms-basics",
+    "skillName": "CMS Basics",
+    "type": "concept",
+    "aliases": [
+      "content management system",
+      "cms"
+    ]
+  },
+  {
+    "skillId": "seo-technical",
+    "skillName": "Technical SEO",
+    "type": "domain",
+    "aliases": [
+      "technical seo"
+    ]
+  },
+  {
+    "skillId": "conversion-rate-optimization",
+    "skillName": "Conversion Rate Optimization",
+    "type": "domain",
+    "aliases": [
+      "cro"
+    ]
+  },
+  {
+    "skillId": "ui-copy",
+    "skillName": "UI Copy",
+    "type": "soft-skill",
+    "aliases": [
+      "microcopy"
+    ]
+  },
+  {
+    "skillId": "user-journey-mapping",
+    "skillName": "User Journey Mapping",
+    "type": "concept",
+    "aliases": [
+      "journey mapping"
+    ]
+  },
+  {
+    "skillId": "service-design-basics",
+    "skillName": "Service Design Basics",
+    "type": "domain",
+    "aliases": [
+      "service design"
+    ]
+  },
+  {
+    "skillId": "design-thinking",
+    "skillName": "Design Thinking",
+    "type": "concept",
+    "aliases": [
+      "design thinking"
+    ]
+  },
+  {
+    "skillId": "human-centered-design",
+    "skillName": "Human Centered Design",
+    "type": "concept",
+    "aliases": [
+      "hcd"
+    ]
+  },
+  {
+    "skillId": "accessibility-testing",
+    "skillName": "Accessibility Testing",
+    "type": "concept",
+    "aliases": [
+      "a11y testing"
+    ]
+  },
+  {
+    "skillId": "qa-engineering",
+    "skillName": "QA Engineering",
+    "type": "domain",
+    "aliases": [
+      "qa",
+      "quality assurance"
+    ]
+  },
+  {
+    "skillId": "manual-testing",
+    "skillName": "Manual Testing",
+    "type": "domain",
+    "aliases": [
+      "manual qa"
+    ]
+  },
+  {
+    "skillId": "test-automation",
+    "skillName": "Test Automation",
+    "type": "domain",
+    "aliases": [
+      "automation testing"
+    ]
+  },
+  {
+    "skillId": "test-case-design",
+    "skillName": "Test Case Design",
+    "type": "concept",
+    "aliases": [
+      "test cases"
+    ]
+  },
+  {
+    "skillId": "bug-reporting",
+    "skillName": "Bug Reporting",
+    "type": "concept",
+    "aliases": [
+      "bug reports"
+    ]
+  },
+  {
+    "skillId": "test-management-tools",
+    "skillName": "Test Management Tools",
+    "type": "tool",
+    "aliases": [
+      "test management"
+    ]
+  },
+  {
+    "skillId": "testrail",
+    "skillName": "TestRail",
+    "type": "tool",
+    "aliases": [
+      "testrail"
+    ]
+  },
+  {
+    "skillId": "security-testing-basics",
+    "skillName": "Security Testing Basics",
+    "type": "domain",
+    "aliases": [
+      "security testing"
+    ]
+  },
+  {
+    "skillId": "performance-testing-basics",
+    "skillName": "Performance Testing Basics",
+    "type": "domain",
+    "aliases": [
+      "performance testing"
+    ]
+  },
+  {
+    "skillId": "jmeter",
+    "skillName": "JMeter",
+    "type": "tool",
+    "aliases": [
+      "jmeter"
+    ]
+  },
+  {
+    "skillId": "load-testing",
+    "skillName": "Load Testing",
+    "type": "concept",
+    "aliases": [
+      "load test"
+    ]
+  },
+  {
+    "skillId": "stress-testing",
+    "skillName": "Stress Testing",
+    "type": "concept",
+    "aliases": [
+      "stress test"
+    ]
+  },
+  {
+    "skillId": "api-load-testing",
+    "skillName": "API Load Testing",
+    "type": "concept",
+    "aliases": [
+      "api load test"
+    ]
+  },
+  {
+    "skillId": "cloud-cost-optimization",
+    "skillName": "Cloud Cost Optimization",
+    "type": "domain",
+    "aliases": [
+      "finops",
+      "cloud costs"
+    ]
+  },
+  {
+    "skillId": "finops-basics",
+    "skillName": "FinOps Basics",
+    "type": "domain",
+    "aliases": [
+      "finops"
+    ]
+  },
+  {
+    "skillId": "enterprise-architecture-basics",
+    "skillName": "Enterprise Architecture Basics",
+    "type": "domain",
+    "aliases": [
+      "ea"
+    ]
+  },
+  {
+    "skillId": "itil-basics",
+    "skillName": "ITIL Basics",
+    "type": "domain",
+    "aliases": [
+      "itil"
+    ]
+  },
+  {
+    "skillId": "service-management-basics",
+    "skillName": "Service Management Basics",
+    "type": "domain",
+    "aliases": [
+      "itsm"
+    ]
+  },
+  {
+    "skillId": "servicenow-basics",
+    "skillName": "ServiceNow Basics",
+    "type": "tool",
+    "aliases": [
+      "servicenow"
+    ]
+  },
+  {
+    "skillId": "business-continuity-basics",
+    "skillName": "Business Continuity Basics",
+    "type": "domain",
+    "aliases": [
+      "bcp"
+    ]
+  },
+  {
+    "skillId": "disaster-recovery-basics",
+    "skillName": "Disaster Recovery Basics",
+    "type": "domain",
+    "aliases": [
+      "dr"
+    ]
+  },
+  {
+    "skillId": "backup-and-recovery",
+    "skillName": "Backup And Recovery",
+    "type": "concept",
+    "aliases": [
+      "backups"
+    ]
+  },
+  {
+    "skillId": "data-backup-strategies",
+    "skillName": "Data Backup Strategies",
+    "type": "concept",
+    "aliases": [
+      "backup strategy"
+    ]
+  },
+  {
+    "skillId": "cloud-migration-basics",
+    "skillName": "Cloud Migration Basics",
+    "type": "domain",
+    "aliases": [
+      "migration"
+    ]
+  },
+  {
+    "skillId": "container-security",
+    "skillName": "Container Security",
+    "type": "domain",
+    "aliases": [
+      "container security"
+    ]
+  },
+  {
+    "skillId": "kubernetes-security",
+    "skillName": "Kubernetes Security",
+    "type": "domain",
+    "aliases": [
+      "k8s security"
+    ]
+  },
+  {
+    "skillId": "networking-in-cloud",
+    "skillName": "Networking In Cloud",
+    "type": "concept",
+    "aliases": [
+      "cloud networking"
+    ]
+  },
+  {
+    "skillId": "api-management",
+    "skillName": "API Management",
+    "type": "domain",
+    "aliases": [
+      "api mgmt"
+    ]
+  },
+  {
+    "skillId": "backend-for-frontend",
+    "skillName": "Backend For Frontend",
+    "type": "concept",
+    "aliases": [
+      "bff"
+    ]
+  },
+  {
+    "skillId": "csharp",
+    "skillName": "C Sharp",
+    "type": "language",
+    "aliases": [
+      "c#",
+      "csharp"
+    ]
+  },
+  {
+    "skillId": "dotnet",
+    "skillName": ".NET",
+    "type": "framework",
+    "aliases": [
+      "dotnet",
+      ".net"
+    ]
+  },
+  {
+    "skillId": "aspnet-core",
+    "skillName": "ASP.NET Core",
+    "type": "framework",
+    "aliases": [
+      "asp.net core",
+      "aspnet"
+    ]
+  },
+  {
+    "skillId": "entity-framework-core",
+    "skillName": "Entity Framework Core",
+    "type": "framework",
+    "aliases": [
+      "ef core",
+      "entity framework"
+    ]
+  },
+  {
+    "skillId": "go",
+    "skillName": "Go",
+    "type": "language",
+    "aliases": [
+      "golang"
+    ]
+  },
+  {
+    "skillId": "rust",
+    "skillName": "Rust",
+    "type": "language",
+    "aliases": []
+  },
+  {
+    "skillId": "php",
+    "skillName": "PHP",
+    "type": "language",
+    "aliases": []
+  },
+  {
+    "skillId": "laravel",
+    "skillName": "Laravel",
+    "type": "framework",
+    "aliases": [
+      "laravel"
+    ]
+  },
+  {
+    "skillId": "ruby",
+    "skillName": "Ruby",
+    "type": "language",
+    "aliases": []
+  },
+  {
+    "skillId": "ruby-on-rails",
+    "skillName": "Ruby On Rails",
+    "type": "framework",
+    "aliases": [
+      "rails",
+      "ror"
+    ]
+  },
+  {
+    "skillId": "go-gin",
+    "skillName": "Gin Web Framework",
+    "type": "framework",
+    "aliases": [
+      "gin"
+    ]
+  },
+  {
+    "skillId": "spring-security",
+    "skillName": "Spring Security",
+    "type": "framework",
+    "aliases": [
+      "spring security"
+    ]
+  },
+  {
+    "skillId": "jwt-authentication-implementation",
+    "skillName": "JWT Authentication Implementation",
+    "type": "concept",
+    "aliases": [
+      "jwt auth"
+    ]
+  },
+  {
+    "skillId": "database-migrations",
+    "skillName": "Database Migrations",
+    "type": "concept",
+    "aliases": [
+      "migrations"
+    ]
+  },
+  {
+    "skillId": "database-replication-basics",
+    "skillName": "Database Replication Basics",
+    "type": "concept",
+    "aliases": [
+      "replication"
+    ]
+  },
+  {
+    "skillId": "quantum-computing",
+    "skillName": "Quantum Computing",
+    "type": "domain",
+    "aliases": [
+      "quantum"
+    ]
+  },
+  {
+    "skillId": "quantum-mechanics",
+    "skillName": "Quantum Mechanics",
+    "type": "concept",
+    "aliases": [
+      "qm"
+    ]
+  },
+  {
+    "skillId": "quantum-information-theory",
+    "skillName": "Quantum Information Theory",
+    "type": "concept",
+    "aliases": [
+      "qit"
+    ]
+  },
+  {
+    "skillId": "quantum-algorithms",
+    "skillName": "Quantum Algorithms",
+    "type": "concept",
+    "aliases": [
+      "quantum algos"
+    ]
+  },
+  {
+    "skillId": "qiskit",
+    "skillName": "Qiskit",
+    "type": "tool",
+    "aliases": [
+      "qiskit"
+    ]
+  },
+  {
+    "skillId": "cirq",
+    "skillName": "Cirq",
+    "type": "tool",
+    "aliases": [
+      "cirq"
+    ]
+  },
+  {
+    "skillId": "quantum-error-correction",
+    "skillName": "Quantum Error Correction",
+    "type": "concept",
+    "aliases": [
+      "qec"
+    ]
+  },
+  {
+    "skillId": "quantum-cryptography",
+    "skillName": "Quantum Cryptography",
+    "type": "domain",
+    "aliases": [
+      "qkd",
+      "quantum key distribution"
+    ]
+  },
+  {
+    "skillId": "post-quantum-cryptography",
+    "skillName": "Post Quantum Cryptography",
+    "type": "domain",
+    "aliases": [
+      "pqc"
+    ]
+  },
+  {
+    "skillId": "space-science",
+    "skillName": "Space Science",
+    "type": "domain",
+    "aliases": [
+      "space"
+    ]
+  },
+  {
+    "skillId": "astronomy",
+    "skillName": "Astronomy",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "astrophysics",
+    "skillName": "Astrophysics",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "cosmology",
+    "skillName": "Cosmology",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "celestial-mechanics",
+    "skillName": "Celestial Mechanics",
+    "type": "concept",
+    "aliases": [
+      "orbital mechanics"
+    ]
+  },
+  {
+    "skillId": "orbital-mechanics",
+    "skillName": "Orbital Mechanics",
+    "type": "concept",
+    "aliases": [
+      "astrodynamics"
+    ]
+  },
+  {
+    "skillId": "astrodynamics",
+    "skillName": "Astrodynamics",
+    "type": "concept",
+    "aliases": [
+      "orbital dynamics"
+    ]
+  },
+  {
+    "skillId": "rocket-propulsion",
+    "skillName": "Rocket Propulsion",
+    "type": "domain",
+    "aliases": [
+      "propulsion"
+    ]
+  },
+  {
+    "skillId": "aerospace-engineering",
+    "skillName": "Aerospace Engineering",
+    "type": "domain",
+    "aliases": [
+      "aero"
+    ]
+  },
+  {
+    "skillId": "space-systems-engineering",
+    "skillName": "Space Systems Engineering",
+    "type": "domain",
+    "aliases": [
+      "space systems"
+    ]
+  },
+  {
+    "skillId": "satellite-communications",
+    "skillName": "Satellite Communications",
+    "type": "domain",
+    "aliases": [
+      "satcom"
+    ]
+  },
+  {
+    "skillId": "remote-sensing",
+    "skillName": "Remote Sensing",
+    "type": "domain",
+    "aliases": [
+      "earth observation"
+    ]
+  },
+  {
+    "skillId": "gis-advanced",
+    "skillName": "Advanced GIS",
+    "type": "tool",
+    "aliases": [
+      "gis"
+    ]
+  },
+  {
+    "skillId": "arcgis",
+    "skillName": "ArcGIS",
+    "type": "tool",
+    "aliases": [
+      "arcgis"
+    ]
+  },
+  {
+    "skillId": "qgis",
+    "skillName": "QGIS",
+    "type": "tool",
+    "aliases": [
+      "qgis"
+    ]
+  },
+  {
+    "skillId": "geospatial-analysis",
+    "skillName": "Geospatial Analysis",
+    "type": "domain",
+    "aliases": [
+      "geospatial"
+    ]
+  },
+  {
+    "skillId": "geodesy",
+    "skillName": "Geodesy",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "planetary-science",
+    "skillName": "Planetary Science",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "exoplanet-science",
+    "skillName": "Exoplanet Science",
+    "type": "domain",
+    "aliases": [
+      "exoplanets"
+    ]
+  },
+  {
+    "skillId": "space-weather",
+    "skillName": "Space Weather",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "radio-astronomy",
+    "skillName": "Radio Astronomy",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "gravitational-waves",
+    "skillName": "Gravitational Waves",
+    "type": "domain",
+    "aliases": [
+      "gw"
+    ]
+  },
+  {
+    "skillId": "dark-matter",
+    "skillName": "Dark Matter",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "dark-energy",
+    "skillName": "Dark Energy",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "high-energy-physics",
+    "skillName": "High Energy Physics",
+    "type": "domain",
+    "aliases": [
+      "hep",
+      "particle physics"
+    ]
+  },
+  {
+    "skillId": "particle-physics",
+    "skillName": "Particle Physics",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "accelerator-physics",
+    "skillName": "Accelerator Physics",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "nuclear-physics",
+    "skillName": "Nuclear Physics",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "nuclear-engineering",
+    "skillName": "Nuclear Engineering",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "reactor-physics",
+    "skillName": "Reactor Physics",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "radiation-detection",
+    "skillName": "Radiation Detection",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "radiation-safety",
+    "skillName": "Radiation Safety",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "defense-systems-basics",
+    "skillName": "Defense Systems Basics",
+    "type": "domain",
+    "aliases": [
+      "defense"
+    ]
+  },
+  {
+    "skillId": "military-technology-basics",
+    "skillName": "Military Technology Basics",
+    "type": "domain",
+    "aliases": [
+      "miltech"
+    ]
+  },
+  {
+    "skillId": "radar-systems",
+    "skillName": "Radar Systems",
+    "type": "domain",
+    "aliases": [
+      "radar"
+    ]
+  },
+  {
+    "skillId": "sonar-systems",
+    "skillName": "Sonar Systems",
+    "type": "domain",
+    "aliases": [
+      "sonar"
+    ]
+  },
+  {
+    "skillId": "electronic-warfare-basics",
+    "skillName": "Electronic Warfare Basics",
+    "type": "domain",
+    "aliases": [
+      "ew"
+    ]
+  },
+  {
+    "skillId": "signals-intelligence-basics",
+    "skillName": "Signals Intelligence Basics",
+    "type": "domain",
+    "aliases": [
+      "sigint"
+    ]
+  },
+  {
+    "skillId": "cyber-defense-advanced",
+    "skillName": "Cyber Defense Advanced",
+    "type": "domain",
+    "aliases": [
+      "blue team advanced"
+    ]
+  },
+  {
+    "skillId": "security-research",
+    "skillName": "Security Research",
+    "type": "domain",
+    "aliases": [
+      "sec research"
+    ]
+  },
+  {
+    "skillId": "reverse-engineering",
+    "skillName": "Reverse Engineering",
+    "type": "domain",
+    "aliases": [
+      "re",
+      "reversing"
+    ]
+  },
+  {
+    "skillId": "binary-exploitation",
+    "skillName": "Binary Exploitation",
+    "type": "domain",
+    "aliases": [
+      "pwn",
+      "binexp"
+    ]
+  },
+  {
+    "skillId": "exploit-development",
+    "skillName": "Exploit Development",
+    "type": "domain",
+    "aliases": [
+      "0day",
+      "zero day"
+    ]
+  },
+  {
+    "skillId": "fuzzing",
+    "skillName": "Fuzzing",
+    "type": "tool",
+    "aliases": [
+      "fuzzing"
+    ]
+  },
+  {
+    "skillId": "afl-fuzzer",
+    "skillName": "AFL Fuzzer",
+    "type": "tool",
+    "aliases": [
+      "afl"
+    ]
+  },
+  {
+    "skillId": "libfuzzer",
+    "skillName": "LibFuzzer",
+    "type": "tool",
+    "aliases": [
+      "libfuzzer"
+    ]
+  },
+  {
+    "skillId": "ghidra",
+    "skillName": "Ghidra",
+    "type": "tool",
+    "aliases": [
+      "ghidra"
+    ]
+  },
+  {
+    "skillId": "ida-pro",
+    "skillName": "IDA Pro",
+    "type": "tool",
+    "aliases": [
+      "ida"
+    ]
+  },
+  {
+    "skillId": "radare2",
+    "skillName": "Radare2",
+    "type": "tool",
+    "aliases": [
+      "radare2",
+      "r2"
+    ]
+  },
+  {
+    "skillId": "gdb",
+    "skillName": "GDB Debugger",
+    "type": "tool",
+    "aliases": [
+      "gdb"
+    ]
+  },
+  {
+    "skillId": "frida",
+    "skillName": "Frida",
+    "type": "tool",
+    "aliases": [
+      "frida"
+    ]
+  },
+  {
+    "skillId": "android-reverse-engineering",
+    "skillName": "Android Reverse Engineering",
+    "type": "domain",
+    "aliases": [
+      "android re"
+    ]
+  },
+  {
+    "skillId": "ios-reverse-engineering",
+    "skillName": "iOS Reverse Engineering",
+    "type": "domain",
+    "aliases": [
+      "ios re"
+    ]
+  },
+  {
+    "skillId": "malware-reverse-engineering",
+    "skillName": "Malware Reverse Engineering",
+    "type": "domain",
+    "aliases": [
+      "malware re"
+    ]
+  },
+  {
+    "skillId": "kernel-security",
+    "skillName": "Kernel Security",
+    "type": "domain",
+    "aliases": [
+      "kernel sec"
+    ]
+  },
+  {
+    "skillId": "windows-internals",
+    "skillName": "Windows Internals",
+    "type": "concept",
+    "aliases": [
+      "win internals"
+    ]
+  },
+  {
+    "skillId": "linux-internals",
+    "skillName": "Linux Internals",
+    "type": "concept",
+    "aliases": [
+      "linux internals"
+    ]
+  },
+  {
+    "skillId": "compiler-design",
+    "skillName": "Compiler Design",
+    "type": "domain",
+    "aliases": [
+      "compilers"
+    ]
+  },
+  {
+    "skillId": "programming-language-theory",
+    "skillName": "Programming Language Theory",
+    "type": "domain",
+    "aliases": [
+      "plt"
+    ]
+  },
+  {
+    "skillId": "type-systems",
+    "skillName": "Type Systems",
+    "type": "concept",
+    "aliases": [
+      "type theory"
+    ]
+  },
+  {
+    "skillId": "formal-methods",
+    "skillName": "Formal Methods",
+    "type": "domain",
+    "aliases": [
+      "formal verification"
+    ]
+  },
+  {
+    "skillId": "model-checking",
+    "skillName": "Model Checking",
+    "type": "concept",
+    "aliases": [
+      "model checking"
+    ]
+  },
+  {
+    "skillId": "theorem-proving",
+    "skillName": "Theorem Proving",
+    "type": "domain",
+    "aliases": [
+      "proof assistants"
+    ]
+  },
+  {
+    "skillId": "coq",
+    "skillName": "Coq",
+    "type": "tool",
+    "aliases": [
+      "coq"
+    ]
+  },
+  {
+    "skillId": "lean-theorem-prover",
+    "skillName": "Lean Theorem Prover",
+    "type": "tool",
+    "aliases": [
+      "lean"
+    ]
+  },
+  {
+    "skillId": "isabelle",
+    "skillName": "Isabelle",
+    "type": "tool",
+    "aliases": [
+      "isabelle"
+    ]
+  },
+  {
+    "skillId": "tla-plus",
+    "skillName": "TLA Plus",
+    "type": "tool",
+    "aliases": [
+      "tla+",
+      "tla plus"
+    ]
+  },
+  {
+    "skillId": "distributed-systems-advanced",
+    "skillName": "Distributed Systems Advanced",
+    "type": "domain",
+    "aliases": [
+      "distributed systems"
+    ]
+  },
+  {
+    "skillId": "consensus-algorithms",
+    "skillName": "Consensus Algorithms",
+    "type": "concept",
+    "aliases": [
+      "paxos",
+      "raft"
+    ]
+  },
+  {
+    "skillId": "raft",
+    "skillName": "Raft Consensus",
+    "type": "concept",
+    "aliases": [
+      "raft"
+    ]
+  },
+  {
+    "skillId": "paxos",
+    "skillName": "Paxos Consensus",
+    "type": "concept",
+    "aliases": [
+      "paxos"
+    ]
+  },
+  {
+    "skillId": "byzantine-fault-tolerance",
+    "skillName": "Byzantine Fault Tolerance",
+    "type": "concept",
+    "aliases": [
+      "bft"
+    ]
+  },
+  {
+    "skillId": "blockchain-architecture",
+    "skillName": "Blockchain Architecture",
+    "type": "domain",
+    "aliases": [
+      "blockchain"
+    ]
+  },
+  {
+    "skillId": "smart-contracts",
+    "skillName": "Smart Contracts",
+    "type": "domain",
+    "aliases": [
+      "smart contracts"
+    ]
+  },
+  {
+    "skillId": "solidity",
+    "skillName": "Solidity",
+    "type": "language",
+    "aliases": [
+      "solidity"
+    ]
+  },
+  {
+    "skillId": "ethereum-basics",
+    "skillName": "Ethereum Basics",
+    "type": "domain",
+    "aliases": [
+      "eth"
+    ]
+  },
+  {
+    "skillId": "web3-basics",
+    "skillName": "Web3 Basics",
+    "type": "domain",
+    "aliases": [
+      "web3"
+    ]
+  },
+  {
+    "skillId": "cryptoeconomics",
+    "skillName": "Cryptoeconomics",
+    "type": "domain",
+    "aliases": [
+      "token economics"
+    ]
+  },
+  {
+    "skillId": "zero-knowledge-proofs",
+    "skillName": "Zero Knowledge Proofs",
+    "type": "concept",
+    "aliases": [
+      "zk",
+      "zkp"
+    ]
+  },
+  {
+    "skillId": "homomorphic-encryption",
+    "skillName": "Homomorphic Encryption",
+    "type": "concept",
+    "aliases": [
+      "he"
+    ]
+  },
+  {
+    "skillId": "secure-multi-party-computation",
+    "skillName": "Secure Multi Party Computation",
+    "type": "concept",
+    "aliases": [
+      "mpc"
+    ]
+  },
+  {
+    "skillId": "advanced-cryptography",
+    "skillName": "Advanced Cryptography",
+    "type": "domain",
+    "aliases": [
+      "crypto advanced"
+    ]
+  },
+  {
+    "skillId": "information-theory",
+    "skillName": "Information Theory",
+    "type": "concept",
+    "aliases": []
+  },
+  {
+    "skillId": "signal-processing",
+    "skillName": "Signal Processing",
+    "type": "domain",
+    "aliases": [
+      "dsp"
+    ]
+  },
+  {
+    "skillId": "digital-signal-processing",
+    "skillName": "Digital Signal Processing",
+    "type": "domain",
+    "aliases": [
+      "dsp"
+    ]
+  },
+  {
+    "skillId": "control-systems",
+    "skillName": "Control Systems",
+    "type": "domain",
+    "aliases": [
+      "controls"
+    ]
+  },
+  {
+    "skillId": "robotics",
+    "skillName": "Robotics",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "robot-operating-system",
+    "skillName": "Robot Operating System",
+    "type": "tool",
+    "aliases": [
+      "ros",
+      "ros2"
+    ]
+  },
+  {
+    "skillId": "slam",
+    "skillName": "SLAM",
+    "type": "domain",
+    "aliases": [
+      "simultaneous localization and mapping"
+    ]
+  },
+  {
+    "skillId": "autonomous-systems",
+    "skillName": "Autonomous Systems",
+    "type": "domain",
+    "aliases": [
+      "autonomy"
+    ]
+  },
+  {
+    "skillId": "reinforcement-learning",
+    "skillName": "Reinforcement Learning",
+    "type": "domain",
+    "aliases": [
+      "rl"
+    ]
+  },
+  {
+    "skillId": "multi-agent-systems",
+    "skillName": "Multi Agent Systems",
+    "type": "domain",
+    "aliases": [
+      "mas"
+    ]
+  },
+  {
+    "skillId": "computational-neuroscience",
+    "skillName": "Computational Neuroscience",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "bioinformatics",
+    "skillName": "Bioinformatics",
+    "type": "domain",
+    "aliases": [
+      "bioinfo"
+    ]
+  },
+  {
+    "skillId": "computational-biology",
+    "skillName": "Computational Biology",
+    "type": "domain",
+    "aliases": [
+      "comp bio"
+    ]
+  },
+  {
+    "skillId": "systems-biology",
+    "skillName": "Systems Biology",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "genomics",
+    "skillName": "Genomics",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "proteomics",
+    "skillName": "Proteomics",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "metabolomics",
+    "skillName": "Metabolomics",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "drug-discovery-basics",
+    "skillName": "Drug Discovery Basics",
+    "type": "domain",
+    "aliases": [
+      "drug discovery"
+    ]
+  },
+  {
+    "skillId": "computational-chemistry",
+    "skillName": "Computational Chemistry",
+    "type": "domain",
+    "aliases": [
+      "comp chem"
+    ]
+  },
+  {
+    "skillId": "molecular-dynamics",
+    "skillName": "Molecular Dynamics",
+    "type": "domain",
+    "aliases": [
+      "md"
+    ]
+  },
+  {
+    "skillId": "cheminformatics",
+    "skillName": "Cheminformatics",
+    "type": "domain",
+    "aliases": [
+      "chemoinformatics"
+    ]
+  },
+  {
+    "skillId": "materials-science",
+    "skillName": "Materials Science",
+    "type": "domain",
+    "aliases": [
+      "mat sci"
+    ]
+  },
+  {
+    "skillId": "nanotechnology",
+    "skillName": "Nanotechnology",
+    "type": "domain",
+    "aliases": [
+      "nano"
+    ]
+  },
+  {
+    "skillId": "semiconductor-physics",
+    "skillName": "Semiconductor Physics",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "vlsi-design",
+    "skillName": "VLSI Design",
+    "type": "domain",
+    "aliases": [
+      "vlsi"
+    ]
+  },
+  {
+    "skillId": "asic-design",
+    "skillName": "ASIC Design",
+    "type": "domain",
+    "aliases": [
+      "asic"
+    ]
+  },
+  {
+    "skillId": "fpga-design",
+    "skillName": "FPGA Design",
+    "type": "domain",
+    "aliases": [
+      "fpga"
+    ]
+  },
+  {
+    "skillId": "verilog",
+    "skillName": "Verilog",
+    "type": "language",
+    "aliases": [
+      "verilog"
+    ]
+  },
+  {
+    "skillId": "systemverilog",
+    "skillName": "SystemVerilog",
+    "type": "language",
+    "aliases": [
+      "system verilog"
+    ]
+  },
+  {
+    "skillId": "vhdl",
+    "skillName": "VHDL",
+    "type": "language",
+    "aliases": [
+      "vhdl"
+    ]
+  },
+  {
+    "skillId": "embedded-systems-advanced",
+    "skillName": "Embedded Systems Advanced",
+    "type": "domain",
+    "aliases": [
+      "embedded advanced"
+    ]
+  },
+  {
+    "skillId": "rtos",
+    "skillName": "Real Time Operating Systems",
+    "type": "domain",
+    "aliases": [
+      "rtos"
+    ]
+  },
+  {
+    "skillId": "firmware-development",
+    "skillName": "Firmware Development",
+    "type": "domain",
+    "aliases": [
+      "firmware"
+    ]
+  },
+  {
+    "skillId": "arm-architecture",
+    "skillName": "ARM Architecture",
+    "type": "concept",
+    "aliases": [
+      "arm"
+    ]
+  },
+  {
+    "skillId": "risc-v",
+    "skillName": "RISC V",
+    "type": "concept",
+    "aliases": [
+      "riscv",
+      "risc-v"
+    ]
+  },
+  {
+    "skillId": "microcontroller-programming",
+    "skillName": "Microcontroller Programming",
+    "type": "domain",
+    "aliases": [
+      "mcu programming"
+    ]
+  },
+  {
+    "skillId": "iot-security-advanced",
+    "skillName": "IoT Security Advanced",
+    "type": "domain",
+    "aliases": [
+      "iot security"
+    ]
+  },
+  {
+    "skillId": "industrial-control-systems-security",
+    "skillName": "Industrial Control Systems Security",
+    "type": "domain",
+    "aliases": [
+      "ics security",
+      "scada security"
+    ]
+  },
+  {
+    "skillId": "scada-systems",
+    "skillName": "SCADA Systems",
+    "type": "domain",
+    "aliases": [
+      "scada"
+    ]
+  },
+  {
+    "skillId": "power-systems-engineering",
+    "skillName": "Power Systems Engineering",
+    "type": "domain",
+    "aliases": [
+      "power systems"
+    ]
+  },
+  {
+    "skillId": "smart-grid",
+    "skillName": "Smart Grid",
+    "type": "domain",
+    "aliases": [
+      "smart grid"
+    ]
+  },
+  {
+    "skillId": "renewable-energy-systems",
+    "skillName": "Renewable Energy Systems",
+    "type": "domain",
+    "aliases": [
+      "renewables"
+    ]
+  },
+  {
+    "skillId": "battery-technology",
+    "skillName": "Battery Technology",
+    "type": "domain",
+    "aliases": [
+      "batteries"
+    ]
+  },
+  {
+    "skillId": "electric-vehicles-systems",
+    "skillName": "Electric Vehicles Systems",
+    "type": "domain",
+    "aliases": [
+      "ev systems"
+    ]
+  },
+  {
+    "skillId": "aerodynamics",
+    "skillName": "Aerodynamics",
+    "type": "concept",
+    "aliases": []
+  },
+  {
+    "skillId": "computational-fluid-dynamics",
+    "skillName": "Computational Fluid Dynamics",
+    "type": "domain",
+    "aliases": [
+      "cfd"
+    ]
+  },
+  {
+    "skillId": "finite-element-analysis",
+    "skillName": "Finite Element Analysis",
+    "type": "domain",
+    "aliases": [
+      "fea"
+    ]
+  },
+  {
+    "skillId": "cad-cam-advanced",
+    "skillName": "Advanced CAD CAM",
+    "type": "domain",
+    "aliases": [
+      "cad cam"
+    ]
+  },
+  {
+    "skillId": "ansys",
+    "skillName": "ANSYS",
+    "type": "tool",
+    "aliases": [
+      "ansys"
+    ]
+  },
+  {
+    "skillId": "matlab-advanced",
+    "skillName": "Advanced MATLAB",
+    "type": "tool",
+    "aliases": [
+      "matlab"
+    ]
+  },
+  {
+    "skillId": "simulink",
+    "skillName": "Simulink",
+    "type": "tool",
+    "aliases": [
+      "simulink"
+    ]
+  },
+  {
+    "skillId": "solidworks-advanced",
+    "skillName": "Advanced SolidWorks",
+    "type": "tool",
+    "aliases": [
+      "solidworks"
+    ]
+  },
+  {
+    "skillId": "catia",
+    "skillName": "CATIA",
+    "type": "tool",
+    "aliases": [
+      "catia"
+    ]
+  },
+  {
+    "skillId": "autocad-advanced",
+    "skillName": "Advanced AutoCAD",
+    "type": "tool",
+    "aliases": [
+      "autocad"
+    ]
+  },
+  {
+    "skillId": "structural-engineering-advanced",
+    "skillName": "Structural Engineering Advanced",
+    "type": "domain",
+    "aliases": [
+      "structures"
+    ]
+  },
+  {
+    "skillId": "seismic-design",
+    "skillName": "Seismic Design",
+    "type": "domain",
+    "aliases": [
+      "earthquake engineering"
+    ]
+  },
+  {
+    "skillId": "geotechnical-engineering",
+    "skillName": "Geotechnical Engineering",
+    "type": "domain",
+    "aliases": [
+      "geotech"
+    ]
+  },
+  {
+    "skillId": "transportation-engineering",
+    "skillName": "Transportation Engineering",
+    "type": "domain",
+    "aliases": [
+      "transportation"
+    ]
+  },
+  {
+    "skillId": "water-resources-engineering",
+    "skillName": "Water Resources Engineering",
+    "type": "domain",
+    "aliases": [
+      "water resources"
+    ]
+  },
+  {
+    "skillId": "environmental-impact-assessment",
+    "skillName": "Environmental Impact Assessment",
+    "type": "domain",
+    "aliases": [
+      "eia"
+    ]
+  },
+  {
+    "skillId": "climate-modeling-basics",
+    "skillName": "Climate Modeling Basics",
+    "type": "domain",
+    "aliases": [
+      "climate modeling"
+    ]
+  },
+  {
+    "skillId": "hydrology",
+    "skillName": "Hydrology",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "hydraulics",
+    "skillName": "Hydraulics",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "advanced-mathematics",
+    "skillName": "Advanced Mathematics",
+    "type": "concept",
+    "aliases": [
+      "advanced math"
+    ]
+  },
+  {
+    "skillId": "real-analysis",
+    "skillName": "Real Analysis",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "complex-analysis",
+    "skillName": "Complex Analysis",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "abstract-algebra",
+    "skillName": "Abstract Algebra",
+    "type": "domain",
+    "aliases": [
+      "group theory"
+    ]
+  },
+  {
+    "skillId": "topology",
+    "skillName": "Topology",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "differential-equations-advanced",
+    "skillName": "Advanced Differential Equations",
+    "type": "domain",
+    "aliases": [
+      "odes",
+      "pdes"
+    ]
+  },
+  {
+    "skillId": "partial-differential-equations",
+    "skillName": "Partial Differential Equations",
+    "type": "domain",
+    "aliases": [
+      "pde"
+    ]
+  },
+  {
+    "skillId": "stochastic-processes",
+    "skillName": "Stochastic Processes",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "bayesian-statistics-advanced",
+    "skillName": "Advanced Bayesian Statistics",
+    "type": "domain",
+    "aliases": [
+      "bayesian stats"
+    ]
+  },
+  {
+    "skillId": "information-geometry",
+    "skillName": "Information Geometry",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "optimization-theory",
+    "skillName": "Optimization Theory",
+    "type": "domain",
+    "aliases": [
+      "optimization"
+    ]
+  },
+  {
+    "skillId": "convex-optimization",
+    "skillName": "Convex Optimization",
+    "type": "domain",
+    "aliases": [
+      "convex opt"
+    ]
+  },
+  {
+    "skillId": "game-theory",
+    "skillName": "Game Theory",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "mechanism-design",
+    "skillName": "Mechanism Design",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "operations-research-advanced",
+    "skillName": "Advanced Operations Research",
+    "type": "domain",
+    "aliases": [
+      "or",
+      "ops research"
+    ]
+  },
+  {
+    "skillId": "control-theory-advanced",
+    "skillName": "Advanced Control Theory",
+    "type": "domain",
+    "aliases": [
+      "control theory"
+    ]
+  },
+  {
+    "skillId": "physics-advanced",
+    "skillName": "Advanced Physics",
+    "type": "domain",
+    "aliases": [
+      "physics advanced"
+    ]
+  },
+  {
+    "skillId": "statistical-mechanics",
+    "skillName": "Statistical Mechanics",
+    "type": "domain",
+    "aliases": [
+      "stat mech"
+    ]
+  },
+  {
+    "skillId": "condensed-matter-physics",
+    "skillName": "Condensed Matter Physics",
+    "type": "domain",
+    "aliases": [
+      "cmp"
+    ]
+  },
+  {
+    "skillId": "plasma-physics",
+    "skillName": "Plasma Physics",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "general-relativity",
+    "skillName": "General Relativity",
+    "type": "domain",
+    "aliases": [
+      "gr"
+    ]
+  },
+  {
+    "skillId": "string-theory",
+    "skillName": "String Theory",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "philosophy-of-science",
+    "skillName": "Philosophy Of Science",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "philosophy",
+    "skillName": "Philosophy",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "ethics",
+    "skillName": "Ethics",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "political-philosophy",
+    "skillName": "Political Philosophy",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "logic-philosophy",
+    "skillName": "Philosophical Logic",
+    "type": "domain",
+    "aliases": [
+      "logic philosophy"
+    ]
+  },
+  {
+    "skillId": "metaphysics",
+    "skillName": "Metaphysics",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "epistemology",
+    "skillName": "Epistemology",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "aesthetics",
+    "skillName": "Aesthetics",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "psychology",
+    "skillName": "Psychology",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "cognitive-psychology",
+    "skillName": "Cognitive Psychology",
+    "type": "domain",
+    "aliases": [
+      "cog psych"
+    ]
+  },
+  {
+    "skillId": "social-psychology",
+    "skillName": "Social Psychology",
+    "type": "domain",
+    "aliases": [
+      "social psych"
+    ]
+  },
+  {
+    "skillId": "behavioral-economics",
+    "skillName": "Behavioral Economics",
+    "type": "domain",
+    "aliases": [
+      "beh econ"
+    ]
+  },
+  {
+    "skillId": "clinical-psychology-basics",
+    "skillName": "Clinical Psychology Basics",
+    "type": "domain",
+    "aliases": [
+      "clinical psych"
+    ]
+  },
+  {
+    "skillId": "counseling-skills",
+    "skillName": "Counseling Skills",
+    "type": "soft-skill",
+    "aliases": [
+      "counseling"
+    ]
+  },
+  {
+    "skillId": "educational-psychology",
+    "skillName": "Educational Psychology",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "developmental-psychology",
+    "skillName": "Developmental Psychology",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "neuroscience",
+    "skillName": "Neuroscience",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "linguistics",
+    "skillName": "Linguistics",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "sociology",
+    "skillName": "Sociology",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "anthropology",
+    "skillName": "Anthropology",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "history",
+    "skillName": "History",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "world-history",
+    "skillName": "World History",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "economics-advanced",
+    "skillName": "Advanced Economics",
+    "type": "domain",
+    "aliases": [
+      "econ advanced"
+    ]
+  },
+  {
+    "skillId": "macroeconomics",
+    "skillName": "Macroeconomics",
+    "type": "domain",
+    "aliases": [
+      "macro"
+    ]
+  },
+  {
+    "skillId": "microeconomics",
+    "skillName": "Microeconomics",
+    "type": "domain",
+    "aliases": [
+      "micro"
+    ]
+  },
+  {
+    "skillId": "international-relations",
+    "skillName": "International Relations",
+    "type": "domain",
+    "aliases": [
+      "ir"
+    ]
+  },
+  {
+    "skillId": "geopolitics",
+    "skillName": "Geopolitics",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "public-policy",
+    "skillName": "Public Policy",
+    "type": "domain",
+    "aliases": [
+      "policy"
+    ]
+  },
+  {
+    "skillId": "public-administration",
+    "skillName": "Public Administration",
+    "type": "domain",
+    "aliases": [
+      "pa"
+    ]
+  },
+  {
+    "skillId": "governance",
+    "skillName": "Governance",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "civic-engagement",
+    "skillName": "Civic Engagement",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "law-basics",
+    "skillName": "Law Basics",
+    "type": "domain",
+    "aliases": [
+      "law"
+    ]
+  },
+  {
+    "skillId": "constitutional-law",
+    "skillName": "Constitutional Law",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "criminal-law",
+    "skillName": "Criminal Law",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "contract-law",
+    "skillName": "Contract Law",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "corporate-law",
+    "skillName": "Corporate Law",
+    "type": "domain",
+    "aliases": []
+  },
+  {
+    "skillId": "intellectual-property-law",
+    "skillName": "Intellectual Property Law",
+    "type": "domain",
+    "aliases": [
+      "ip law"
+    ]
+  },
+  {
+    "skillId": "patent-basics",
+    "skillName": "Patent Basics",
+    "type": "domain",
+    "aliases": [
+      "patents"
+    ]
+  },
+  {
+    "skillId": "copyright-basics",
+    "skillName": "Copyright Basics",
+    "type": "domain",
+    "aliases": [
+      "copyright"
+    ]
+  }
 ]

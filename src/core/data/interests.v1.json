@@ -1,0 +1,312 @@
+[
+    {
+        "interestId": "leadership",
+        "interestName": "Leadership",
+        "aliases": [
+            "managing",
+            "leading",
+            "management",
+            "team leader",
+            "management skills"
+        ]
+    },
+    {
+        "interestId": "system-design",
+        "interestName": "System Design",
+        "aliases": [
+            "architecture",
+            "systems architecture",
+            "software design",
+            "designing systems"
+        ]
+    },
+    {
+        "interestId": "open-source",
+        "interestName": "Open Source",
+        "aliases": [
+            "oss",
+            "open source contribution",
+            "foss",
+            "open-source software"
+        ]
+    },
+    {
+        "interestId": "mentoring",
+        "interestName": "Mentoring",
+        "aliases": [
+            "coaching",
+            "teaching",
+            "mentorship",
+            "guiding",
+            "training"
+        ]
+    },
+    {
+        "interestId": "public-speaking",
+        "interestName": "Public Speaking",
+        "aliases": [
+            "speaking",
+            "presentations",
+            "giving talks",
+            "conferences"
+        ]
+    },
+    {
+        "interestId": "machine-learning",
+        "interestName": "Machine Learning",
+        "aliases": [
+            "ml",
+            "artificial intelligence",
+            "ai",
+            "deep learning",
+            "neural networks"
+        ]
+    },
+    {
+        "interestId": "data-engineering",
+        "interestName": "Data Engineering",
+        "aliases": [
+            "data pipelines",
+            "big data",
+            "etl",
+            "data processing"
+        ]
+    },
+    {
+        "interestId": "cloud-computing",
+        "interestName": "Cloud Computing",
+        "aliases": [
+            "cloud",
+            "aws",
+            "gcp",
+            "azure",
+            "cloud architecture"
+        ]
+    },
+    {
+        "interestId": "cybersecurity",
+        "interestName": "Cybersecurity",
+        "aliases": [
+            "security",
+            "infosec",
+            "information security",
+            "ethical hacking"
+        ]
+    },
+    {
+        "interestId": "devops",
+        "interestName": "DevOps",
+        "aliases": [
+            "ci/cd",
+            "infrastructure",
+            "automation",
+            "sre",
+            "site reliability"
+        ]
+    },
+    {
+        "interestId": "frontend",
+        "interestName": "Frontend Development",
+        "aliases": [
+            "ui/ux",
+            "user interface",
+            "web design",
+            "frontend coding"
+        ]
+    },
+    {
+        "interestId": "backend",
+        "interestName": "Backend Development",
+        "aliases": [
+            "server-side",
+            "apis",
+            "databases",
+            "backend logic"
+        ]
+    },
+    {
+        "interestId": "mobile",
+        "interestName": "Mobile Development",
+        "aliases": [
+            "ios",
+            "android",
+            "app development",
+            "mobile engineering"
+        ]
+    },
+    {
+        "interestId": "game-dev",
+        "interestName": "Game Development",
+        "aliases": [
+            "gaming",
+            "game design",
+            "game programming",
+            "unity",
+            "unreal"
+        ]
+    },
+    {
+        "interestId": "ui-ux",
+        "interestName": "UI/UX Design",
+        "aliases": [
+            "user experience",
+            "user interface design",
+            "product design"
+        ]
+    },
+    {
+        "interestId": "product-management",
+        "interestName": "Product Management",
+        "aliases": [
+            "pm",
+            "product strategy",
+            "agile",
+            "scrum"
+        ]
+    },
+    {
+        "interestId": "blockchain",
+        "interestName": "Blockchain",
+        "aliases": [
+            "crypto",
+            "web3",
+            "smart contracts",
+            "decentralized"
+        ]
+    },
+    {
+        "interestId": "iot",
+        "interestName": "Internet of Things",
+        "aliases": [
+            "iot",
+            "embedded systems",
+            "hardware computing"
+        ]
+    },
+    {
+        "interestId": "ar-vr",
+        "interestName": "AR/VR",
+        "aliases": [
+            "augmented reality",
+            "virtual reality",
+            "mixed reality",
+            "xr"
+        ]
+    },
+    {
+        "interestId": "robotics",
+        "interestName": "Robotics",
+        "aliases": [
+            "robotic engineering",
+            "automation systems"
+        ]
+    },
+    {
+        "interestId": "fintech",
+        "interestName": "FinTech",
+        "aliases": [
+            "financial technology",
+            "payments",
+            "trading systems"
+        ]
+    },
+    {
+        "interestId": "healthtech",
+        "interestName": "HealthTech",
+        "aliases": [
+            "digital health",
+            "medical software",
+            "healthcare it"
+        ]
+    },
+    {
+        "interestId": "edtech",
+        "interestName": "EdTech",
+        "aliases": [
+            "educational technology",
+            "e-learning",
+            "online platforms"
+        ]
+    },
+    {
+        "interestId": "e-commerce",
+        "interestName": "E-Commerce",
+        "aliases": [
+            "retail tech",
+            "online shopping",
+            "marketplaces"
+        ]
+    },
+    {
+        "interestId": "startup",
+        "interestName": "Startups",
+        "aliases": [
+            "entrepreneurship",
+            "founding",
+            "early stage"
+        ]
+    },
+    {
+        "interestId": "research",
+        "interestName": "Research",
+        "aliases": [
+            "r&d",
+            "academic research",
+            "scientific research"
+        ]
+    },
+    {
+        "interestId": "writing",
+        "interestName": "Technical Writing",
+        "aliases": [
+            "documentation",
+            "blogging",
+            "tech writing"
+        ]
+    },
+    {
+        "interestId": "community",
+        "interestName": "Community Building",
+        "aliases": [
+            "developer relations",
+            "devrel",
+            "community management"
+        ]
+    },
+    {
+        "interestId": "freelance",
+        "interestName": "Freelancing",
+        "aliases": [
+            "consulting",
+            "contracting",
+            "independent work"
+        ]
+    },
+    {
+        "interestId": "accessibility",
+        "interestName": "Accessibility",
+        "aliases": [
+            "a11y",
+            "inclusive design",
+            "web accessibility"
+        ]
+    },
+    {
+        "interestId": "performance",
+        "interestName": "Web Performance",
+        "aliases": [
+            "optimization",
+            "speed",
+            "performance tuning"
+        ]
+    },
+    {
+        "interestId": "testing",
+        "interestName": "Software Testing",
+        "aliases": [
+            "qa",
+            "quality assurance",
+            "automated testing"
+        ]
+    }
+]

@@ -33,22 +33,25 @@ export function simulateCareer({ skills = [], interests = [], targetRole, rolesD
 
     // 5. Generate 5-year projection
     const projection = [];
-    let currentSalary = role.salaryINRBase;
+    let currentSalary = role.baseSalaryINR || 600000;
 
     for (let year = 1; year <= 5; year++) {
         // Determine title based on year
-        let title = role.roleName;
-        if (year === 1) {
-            title = `Junior ${role.roleName}`;
-        } else if (year >= 4) {
-            title = `Senior ${role.roleName}`;
-        }
+        // Helper to generate a realistic progression title
+        const getTitle = (baseRole, yr) => {
+            if (yr === 1) return `Junior ${baseRole}`;
+            if (yr === 2) return `${baseRole}`;
+            if (yr === 3) return `Mid-Level ${baseRole}`;
+            if (yr === 4) return `Senior ${baseRole}`;
+            return `Lead ${baseRole}`;
+        };
 
         projection.push({
-            year,
-            title,
+            year: year,
+            title: getTitle(role.roleName, year),
             salaryINR: Math.round(currentSalary),
-            skillMatch: Math.round(skillMatchRatio * 100) // Store as percentage for UI
+            skillMatch: Math.round(skillMatchRatio * 100),
+            milestone: `Year ${year} Milestone`
         });
 
         // Apply growth for next year

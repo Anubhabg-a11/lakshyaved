@@ -30,14 +30,39 @@ export function analyzeSkillGap({ resumeText, targetRoleId, rolesDataset }) {
 
     // Priority based roadmaps for missing skills
     const roadmap = missingSkills.map((skill, index) => {
+        const lowerSkill = skill.toLowerCase();
+        let steps = [];
+        
+        if (lowerSkill.includes('react') || lowerSkill.includes('vue') || lowerSkill.includes('angular') || lowerSkill.includes('ui') || lowerSkill.includes('frontend')) {
+            steps = [
+                `Learn ${skill} fundamentals`,
+                `Build a UI component using ${skill}`,
+                `Integrate ${skill} into a larger application`
+            ];
+        } else if (lowerSkill.includes('sql') || lowerSkill.includes('database') || lowerSkill.includes('mongo')) {
+            steps = [
+                `Study ${skill} queries and schema design`,
+                `Set up a local ${skill} environment`,
+                `Build an API connected to ${skill}`
+            ];
+        } else if (lowerSkill.includes('python') || lowerSkill.includes('data') || lowerSkill.includes('machine learning')) {
+            steps = [
+                `Complete a ${skill} syntax crash course`,
+                `Analyze a public dataset using ${skill}`,
+                `Publish a ${skill} notebook on Kaggle/GitHub`
+            ];
+        } else {
+            steps = [
+                `Complete an introductory course on ${skill}`,
+                `Build a small proof-of-concept project with ${skill}`,
+                `Add ${skill} project to your portfolio`
+            ];
+        }
+
         return {
             title: skill,
             priority: index < 2 ? 'high' : 'medium',
-            steps: [
-                `Find introductory courses for ${skill}`,
-                `Build a small project using ${skill}`,
-                `Add ${skill} to your portfolio`
-            ]
+            steps
         };
     });
 
