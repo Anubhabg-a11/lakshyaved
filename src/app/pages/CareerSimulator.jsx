@@ -86,7 +86,10 @@ export default function CareerSimulator() {
                             skills: profile.skills,
                             interests: profile.interests || [],
                             targetRole: profile.targetRole,
-                            rolesDataset
+                            rolesDataset,
+                            education: profile.education || '',
+                            hasResume: !!(r && r.rawText),
+                            skillsWithLevels: profile.skillsWithLevels || []
                         });
                         setResults(sim);
                     }
@@ -115,7 +118,10 @@ export default function CareerSimulator() {
                 skills,
                 interests,
                 targetRole,
-                rolesDataset
+                rolesDataset,
+                education: (await getProfile())?.education || '',
+                hasResume: !!resumeData?.rawText,
+                skillsWithLevels: (await getProfile())?.skillsWithLevels || []
             });
 
             setResults(simulation);
